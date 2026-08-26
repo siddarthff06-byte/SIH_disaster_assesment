@@ -1,29 +1,37 @@
 import numpy as np
-import torch
-from torchvision import transforms
-from model_setup import get_model
+import cv2
 
-def preprocess(img):
-    transform = transforms.Compose([
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                              std=[0.229, 0.224, 0.225]),
-    ])
-    return transform(img).unsqueeze(0)
+def compute_change_mask(before_img, after_img, threshold=30):
+    """
+    Detects significant pixel changes between before/after images.
+    threshold: how much a pixel's RGB values must differ to count as 'changed'.
+    Higher threshold = stricter (fewer false positives from lighting/noise).
+    Lower threshold = more sensitive (may pick up shadows/noise as change).
+    """
+    before_gray = cv2.cvtColor(before_img, cv2.COLOR_RGB2GRAY).astype(int)
+    after_gray  = cv2.cvtColor(after_img, cv2.COLOR_RGB2GRAY).astype(int)
+
+    diff = np.abs(after_gray - before_gray)
+    change_mask = diff > threshold
+
+    return change_mask
 
 if __name__ == "__main__":
-    model = get_model()
+    before_img = np.load("data/processed/before.npy")
+    after_img  = np.load("data/processed/after.npy")
 
-    before_img = np.load("../data/processed/before.npy")
-    after_img  = np.load("../data/processed/after.npy")
+    change_mask = compute_change_mask(before_img, after_img, threshold=30)
 
-    with torch.no_grad():
-        before_mask = torch.sigmoid(model(preprocess(before_img))) > 0.5
-        after_mask  = torch.sigmoid(model(preprocess(after_img))) > 0.5
+    # For before_mask, treat the entire before image as "existing structure"
+    # (since we don't have a real building segmentation model).
+    # A simple proxy: assume any non-background pixel counts as "building area".
+    before_mask = np.ones(before_img.shape[:2], dtype=bool)
+    after_mask  = ~change_mask  # pixels that did NOT change = still standing
 
-    before_mask = before_mask.squeeze().numpy()
-    after_mask  = after_mask.squeeze().numpy()
+    print("Before mask 'on' pixels:", before_mask.sum(), "/", before_mask.size)
+    print("After mask 'on' pixels:", after_mask.sum(), "/", after_mask.size)
+    print("Changed pixels:", change_mask.sum(), "/", change_mask.size)
 
-    np.save("../outputs/masks/before_mask.npy", before_mask)
-    np.save("../outputs/masks/after_mask.npy", after_mask)
-    print("Day 1 target hit — masks saved to outputs/masks/")
+    np.save("outputs/masks/before_mask.npy", before_mask)
+    np.save("outputs/masks/after_mask.npy", after_mask)
+    print("Masks saved to outputs/masks/ (diff-based, not model-based)")
