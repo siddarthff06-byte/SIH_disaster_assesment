@@ -1,0 +1,5 @@
+sih_env/
+*.tif
+__pycache__/
+data/processed/*.npy
+outputs/masks/*.npy
