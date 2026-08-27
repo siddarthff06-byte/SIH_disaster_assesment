@@ -36,12 +36,15 @@ export default function App() {
 
   const handleExport = () => {
     if (!analysisData) return
-    const json = JSON.stringify(analysisData.results, null, 2)
-    const blob = new Blob([json], { type: 'application/json' })
+    const headers = 'id,severity,loss_ratio,x,y\n'
+    const csv = analysisData.results.map(r => 
+      `${r.id},${r.severity},${r.loss_ratio.toFixed(2)},${r.x},${r.y}`
+    ).join('\n')
+    const blob = new Blob([headers + csv], { type: 'text/csv' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = 'severity_output.json'
+    a.download = 'severity_output.csv'
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -149,7 +152,6 @@ export default function App() {
       }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <strong style={{ color: 'var(--text-h)' }}>VISTA</strong> — Disaster Assessment System &nbsp;·&nbsp;
-          Smart India Hackathon 2024 &nbsp;·&nbsp;
           <a
             href="https://github.com/siddarthff06-byte/SIH_disaster_assesment"
             target="_blank" rel="noopener"

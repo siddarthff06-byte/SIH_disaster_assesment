@@ -64,27 +64,9 @@ function ImagePreview({ label, emoji, file }) {
 // ─── Main component ───────────────────────────────────────────────────────────
 
 export default function SatelliteFetcher({ onReady }) {
-  // Credentials — persisted in localStorage
-  const [clientId,     setClientIdRaw]     = useState(() => localStorage.getItem(LS_ID)  || '')
-  const [clientSecret, setClientSecretRaw] = useState(() => localStorage.getItem(LS_SEC) || '')
-  const [showSecret,   setShowSecret]      = useState(false)
-  const [credsSaved,   setCredsSaved]      = useState(
-    () => !!(localStorage.getItem(LS_ID) && localStorage.getItem(LS_SEC))
-  )
-
-  const setClientId     = v => { setClientIdRaw(v);     setCredsSaved(false) }
-  const setClientSecret = v => { setClientSecretRaw(v); setCredsSaved(false) }
-
-  const saveCredentials = () => {
-    localStorage.setItem(LS_ID,  clientId.trim())
-    localStorage.setItem(LS_SEC, clientSecret.trim())
-    setCredsSaved(true)
-  }
-  const clearCredentials = () => {
-    localStorage.removeItem(LS_ID)
-    localStorage.removeItem(LS_SEC)
-    setClientIdRaw(''); setClientSecretRaw(''); setCredsSaved(false)
-  }
+  // Credentials — pulled from environment variables
+  const clientId = import.meta.env.VITE_CLIENT_ID || ''
+  const clientSecret = import.meta.env.VITE_CLIENT_SECRET || ''
 
   // Location
   const [locationQuery, setLocationQuery] = useState('')
@@ -147,84 +129,6 @@ export default function SatelliteFetcher({ onReady }) {
 
   return (
     <div>
-
-      {/* ── Credentials ── */}
-      <div style={{
-        background: 'var(--bg-subtle)', border: '1px solid var(--border)',
-        borderRadius: 12, padding: 24, marginBottom: 24,
-      }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span style={{ fontSize: 20 }}>🔑</span>
-            <div>
-              <div style={{ fontWeight: 600, color: 'var(--text-h)', fontSize: 15 }}>
-                Copernicus API Credentials
-              </div>
-              <div style={{ fontSize: 12, color: 'var(--text)' }}>
-                {credsSaved
-                  ? '✅ Saved in browser — no need to re-enter'
-                  : <><a href="https://shapps.sentinel-hub.com/dashboard/#/account/settings"
-                      target="_blank" rel="noopener" style={{ color: 'var(--accent)' }}>
-                      Sentinel Hub → User Settings → OAuth Clients
-                    </a></>
-                }
-              </div>
-            </div>
-          </div>
-          {credsSaved && (
-            <button onClick={clearCredentials} style={{
-              fontSize: 12, color: 'var(--destroyed)', background: 'none',
-              border: '1px solid rgba(239,68,68,0.4)', borderRadius: 6,
-              padding: '4px 10px', cursor: 'pointer',
-            }}>
-              Clear saved
-            </button>
-          )}
-        </div>
-
-        <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 12 }}>
-          <div style={{ flex: 1, minWidth: 200 }}>
-            <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-h)', marginBottom: 4 }}>Client ID</div>
-            <Input
-              icon="🆔" type="text" placeholder="your-oauth-client-id"
-              value={clientId} onChange={e => setClientId(e.target.value)}
-            />
-          </div>
-          <div style={{ flex: 1, minWidth: 200 }}>
-            <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-h)', marginBottom: 4 }}>Client Secret</div>
-            <div style={{ position: 'relative' }}>
-              <Input
-                icon="🔒" type={showSecret ? 'text' : 'password'} placeholder="your-client-secret"
-                value={clientSecret} onChange={e => setClientSecret(e.target.value)}
-              />
-              <button onClick={() => setShowSecret(s => !s)} style={{
-                position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)',
-                background: 'none', border: 'none', cursor: 'pointer', fontSize: 13, color: 'var(--text)',
-              }}>
-                {showSecret ? 'Hide' : 'Show'}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Save button */}
-        {!credsSaved && clientId && clientSecret && (
-          <button onClick={saveCredentials} style={{
-            width: '100%', padding: '9px 0', borderRadius: 8,
-            background: 'var(--intact-bg)', border: '1px solid rgba(34,197,94,0.4)',
-            color: 'var(--intact)', fontWeight: 600, fontSize: 13, cursor: 'pointer', marginBottom: 12,
-          }}>
-            💾 Save credentials in browser (won't ask again)
-          </button>
-        )}
-
-        <div style={{
-          background: 'rgba(245,158,11,0.08)', border: '1px solid rgba(245,158,11,0.25)',
-          borderRadius: 8, padding: '8px 12px', fontSize: 12, color: 'var(--damaged)',
-        }}>
-          ⚠ Stored only in your browser's localStorage — sent directly to Copernicus, nowhere else.
-        </div>
-      </div>
 
       {/* ── Location ── */}
       <div style={{
@@ -370,7 +274,7 @@ export default function SatelliteFetcher({ onReady }) {
         {fetching
           ? `🛰️ ${fetchStatus || 'Fetching…'}`
           : !clientId || !clientSecret
-            ? 'Enter API credentials above'
+            ? 'Missing VITE_CLIENT_ID or VITE_CLIENT_SECRET in .env'
             : !location
               ? 'Search for a location above'
               : '🛰️ Fetch Satellite Images'}

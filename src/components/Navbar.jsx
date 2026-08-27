@@ -27,7 +27,7 @@ export default function Navbar() {
             background: 'var(--accent-bg)', border: '1px solid var(--accent-border)',
             borderRadius: 99, padding: '2px 8px', letterSpacing: 0.3,
           }}>
-            SIH 2024
+            Beta
           </span>
         </div>
 

@@ -46,7 +46,7 @@ export async function getToken(clientId, clientSecret) {
 export async function geocodeLocation(query) {
   const url = `${GEOCODE_URL}?q=${encodeURIComponent(query)}&format=json&limit=1`
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'VISTA-DisasterAssessment/1.0 (SIH2024)' },
+    headers: { 'User-Agent': 'VISTA-DisasterAssessment/1.0 (VISTA)' },
   })
 
   if (!res.ok) throw new Error('Geocoding request failed')

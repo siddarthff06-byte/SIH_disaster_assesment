@@ -45,7 +45,7 @@ export default function Hero({ onStart }) {
           fontSize: 13, fontWeight: 500, color: 'var(--accent)',
         }}>
           <span style={{ fontSize: 16 }}>🛰️</span>
-          Satellite Imagery · AI-Powered Analysis · Smart India Hackathon
+          VISTA · Visual Intelligence for Structure and Threat Assessment
         </div>
 
         <h1 style={{
@@ -129,7 +129,7 @@ export default function Hero({ onStart }) {
             { icon: '→', label: '', sub: '', arrow: true },
             { icon: '📊', label: 'Severity Grid', sub: '32×32 classification' },
             { icon: '→', label: '', sub: '', arrow: true },
-            { icon: '📋', label: 'JSON Report', sub: 'Export results' },
+            { icon: '📋', label: 'CSV Report', sub: 'Export results' },
           ].map((step, i) =>
             step.arrow ? (
               <div key={i} style={{

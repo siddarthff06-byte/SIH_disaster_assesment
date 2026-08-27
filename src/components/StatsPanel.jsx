@@ -179,7 +179,7 @@ export default function StatsPanel({ results, beforeUrl, afterUrl, onExport }) {
           fontSize: 15, fontWeight: 600, cursor: 'pointer',
           boxShadow: '0 4px 20px rgba(170,59,255,0.3)',
         }}>
-          ⬇ Export severity_output.json
+          ⬇ Export severity_output.csv
         </button>
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{
           padding: '12px 28px', borderRadius: 10,
