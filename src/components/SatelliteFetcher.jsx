@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import { getToken, geocodeLocation, fetchBeforeAfter } from '../sentinelApi'
+import { DISASTER_EVENTS, findDisasterMatches } from '../disasterData'
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
-
-const LS_ID  = 'vista_client_id'
-const LS_SEC = 'vista_client_secret'
 
 /** Expand a single date ±WINDOW days to give Sentinel Hub a search window */
 const WINDOW_DAYS = 30
@@ -68,9 +66,10 @@ export default function SatelliteFetcher({ onReady }) {
   const clientId = import.meta.env.VITE_CLIENT_ID || ''
   const clientSecret = import.meta.env.VITE_CLIENT_SECRET || ''
 
-  // Location
+  // Location & Selected Disaster Info
   const [locationQuery, setLocationQuery] = useState('')
   const [location,      setLocation]      = useState(null)
+  const [selectedEvent, setSelectedEvent] = useState(null)
   const [geocoding,     setGeocoding]     = useState(false)
 
   // Single dates (before / after)
@@ -81,7 +80,7 @@ export default function SatelliteFetcher({ onReady }) {
 
   // Options
   const [radiusKm, setRadiusKm] = useState(5)
-  const [maxCloud, setMaxCloud] = useState(70)
+  const [maxCloud, setMaxCloud] = useState(60)
 
   // State
   const [fetching,    setFetching]    = useState(false)
@@ -89,10 +88,26 @@ export default function SatelliteFetcher({ onReady }) {
   const [error,       setError]       = useState(null)
   const [preview,     setPreview]     = useState(null)
 
+  // Auto-suggestions matching user query
+  const suggestions = findDisasterMatches(locationQuery)
+
+  // ── Apply a Disaster Preset ──
+  const applyPreset = (evt) => {
+    setSelectedEvent(evt)
+    setLocationQuery(evt.query)
+    setLocation(evt.location)
+    setBeforeDate(evt.beforeDate)
+    setAfterDate(evt.afterDate)
+    setRadiusKm(evt.radiusKm || 6)
+    setMaxCloud(evt.maxCloud || 60)
+    setError(null)
+    setPreview(null)
+  }
+
   // ── Geocode ──
   const handleGeocode = async () => {
     if (!locationQuery.trim()) return
-    setGeocoding(true); setError(null); setLocation(null)
+    setGeocoding(true); setError(null); setLocation(null); setSelectedEvent(null)
     try { setLocation(await geocodeLocation(locationQuery.trim())) }
     catch (e) { setError(e.message) }
     finally { setGeocoding(false) }
@@ -106,7 +121,7 @@ export default function SatelliteFetcher({ onReady }) {
       setFetchStatus('Authenticating with Copernicus…')
       const token = await getToken(clientId.trim(), clientSecret.trim())
 
-      setFetchStatus('Fetching satellite images…')
+      setFetchStatus('Fetching Sentinel-2 satellite tiles…')
       await new Promise(r => setTimeout(r, 50))
 
       const before = dateWindow(beforeDate)
@@ -127,8 +142,53 @@ export default function SatelliteFetcher({ onReady }) {
 
   const ready = clientId && clientSecret && location
 
+  const handleRunAnalysis = () => {
+    if (!preview) return
+    const meta = {
+      disasterInfo: selectedEvent || {
+        name: location?.displayName ? `Assessment for ${location.displayName.split(',')[0]}` : 'Disaster Assessment',
+        category: 'Satellite Damage Scan',
+        summary: `Multi-temporal Sentinel-2 L2A comparison between ${beforeDate} and ${afterDate}.`,
+      },
+      locationText: location?.displayName || locationQuery,
+      coordinates: location ? `${location.lat.toFixed(4)}°N, ${location.lon.toFixed(4)}°E` : '',
+      beforeDate,
+      afterDate,
+    }
+    onReady(preview.beforeFile, preview.afterFile, meta)
+  }
+
   return (
     <div>
+
+      {/* ── Quick Disaster Presets Carousel ── */}
+      <div style={{ marginBottom: 20 }}>
+        <div style={{
+          fontSize: 12, fontWeight: 600, color: 'var(--text)',
+          textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8,
+          display: 'flex', alignItems: 'center', gap: 6,
+        }}>
+          <span>⚡</span> Quick Disaster Presets & Recent Events
+        </div>
+        <div style={{ display: 'flex', gap: 8, overflowX: 'auto', paddingBottom: 6 }}>
+          {DISASTER_EVENTS.map(evt => (
+            <button
+              key={evt.id}
+              onClick={() => applyPreset(evt)}
+              style={{
+                padding: '7px 14px', borderRadius: 99,
+                background: selectedEvent?.id === evt.id ? 'var(--accent-bg)' : 'var(--bg-subtle)',
+                border: `1px solid ${selectedEvent?.id === evt.id ? 'var(--accent-border)' : 'var(--border)'}`,
+                color: selectedEvent?.id === evt.id ? 'var(--accent)' : 'var(--text-h)',
+                fontSize: 12, fontWeight: 500, cursor: 'pointer', whiteSpace: 'nowrap',
+                transition: 'all 0.15s',
+              }}
+            >
+              {evt.tag}
+            </button>
+          ))}
+        </div>
+      </div>
 
       {/* ── Location ── */}
       <div style={{
@@ -139,45 +199,104 @@ export default function SatelliteFetcher({ onReady }) {
           📍 Disaster Location
         </div>
         <div style={{ fontSize: 12, color: 'var(--text)', marginBottom: 12 }}>
-          Enter a city, region, or landmark — we'll geocode it automatically.
+          Type a country, region, or city name — matching disaster events & coordinates auto-suggest automatically.
         </div>
-        <div style={{ display: 'flex', gap: 8 }}>
-          <div style={{ flex: 1 }}>
-            <Input
-              icon="🔍" type="text"
-              placeholder="e.g. Wayanad, Kerala  or  Kahramanmaraş, Turkey"
-              value={locationQuery}
-              onChange={e => setLocationQuery(e.target.value)}
-              onKeyDown={e => e.key === 'Enter' && handleGeocode()}
-            />
+        
+        <div style={{ position: 'relative' }}>
+          <div style={{ display: 'flex', gap: 8 }}>
+            <div style={{ flex: 1 }}>
+              <Input
+                icon="🔍" type="text"
+                placeholder="e.g. Nepal, Vizag, Wayanad, Lahaina, Valencia..."
+                value={locationQuery}
+                onChange={e => {
+                  setLocationQuery(e.target.value)
+                  if (selectedEvent && e.target.value !== selectedEvent.query) {
+                    setSelectedEvent(null)
+                  }
+                }}
+                onKeyDown={e => e.key === 'Enter' && handleGeocode()}
+              />
+            </div>
+            <button
+              onClick={handleGeocode}
+              disabled={geocoding || !locationQuery.trim()}
+              style={{
+                padding: '10px 20px', borderRadius: 8,
+                background: 'var(--accent-bg)', border: '1px solid var(--accent-border)',
+                color: 'var(--accent)', fontWeight: 600, fontSize: 13,
+                cursor: geocoding ? 'wait' : 'pointer', whiteSpace: 'nowrap',
+              }}
+            >
+              {geocoding ? '…' : 'Search'}
+            </button>
           </div>
-          <button
-            onClick={handleGeocode}
-            disabled={geocoding || !locationQuery.trim()}
-            style={{
-              padding: '10px 20px', borderRadius: 8,
-              background: 'var(--accent-bg)', border: '1px solid var(--accent-border)',
-              color: 'var(--accent)', fontWeight: 600, fontSize: 13,
-              cursor: geocoding ? 'wait' : 'pointer', whiteSpace: 'nowrap',
-            }}
-          >
-            {geocoding ? '…' : 'Search'}
-          </button>
+
+          {/* Auto-suggest dropdown when matching disaster event found */}
+          {suggestions.length > 0 && !location && (
+            <div style={{
+              marginTop: 8, background: 'var(--bg)', border: '1px solid var(--accent-border)',
+              borderRadius: 10, padding: 8, boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
+            }}>
+              <div style={{ fontSize: 11, color: 'var(--text)', padding: '4px 8px', fontWeight: 600 }}>
+                💡 Recognized Calamity Events (Click to Auto-fill Dates & Coordinates):
+              </div>
+              {suggestions.map(evt => (
+                <div
+                  key={evt.id}
+                  onClick={() => applyPreset(evt)}
+                  style={{
+                    padding: '8px 12px', borderRadius: 6, cursor: 'pointer',
+                    display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+                    transition: 'background 0.1s',
+                  }}
+                  onMouseEnter={e => e.currentTarget.style.background = 'var(--accent-bg)'}
+                  onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                >
+                  <div>
+                    <div style={{ fontWeight: 600, fontSize: 13, color: 'var(--text-h)' }}>
+                      {evt.tag} — {evt.name}
+                    </div>
+                    <div style={{ fontSize: 11, color: 'var(--text)', marginTop: 2 }}>
+                      Optimal Window: {evt.beforeDate} ➔ {evt.afterDate} ({evt.category})
+                    </div>
+                  </div>
+                  <span style={{ fontSize: 12, color: 'var(--accent)', fontWeight: 600 }}>Auto-fill ⚡</span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {location && (
           <div style={{
-            marginTop: 10, padding: '10px 14px',
+            marginTop: 12, padding: '12px 16px',
             background: 'var(--intact-bg)', border: '1px solid rgba(34,197,94,0.3)',
             borderRadius: 8, fontSize: 13, display: 'flex', gap: 12, alignItems: 'center',
           }}>
-            <span>✅</span>
-            <div>
-              <div style={{ fontWeight: 600, color: 'var(--text-h)' }}>{location.displayName}</div>
-              <div style={{ fontFamily: 'var(--mono)', fontSize: 12, color: 'var(--text)', marginTop: 2 }}>
-                {location.lat.toFixed(5)}°N &nbsp; {location.lon.toFixed(5)}°E
+            <span style={{ fontSize: 20 }}>✅</span>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontWeight: 600, color: 'var(--text-h)' }}>
+                {selectedEvent ? `${selectedEvent.name} — ` : ''}{location.displayName}
               </div>
+              <div style={{ fontFamily: 'var(--mono)', fontSize: 12, color: 'var(--text)', marginTop: 2 }}>
+                Coordinates: {location.lat.toFixed(5)}°N, {location.lon.toFixed(5)}°E
+              </div>
+              {selectedEvent && (
+                <div style={{ fontSize: 12, color: 'var(--text)', marginTop: 4 }}>
+                  ℹ {selectedEvent.summary}
+                </div>
+              )}
             </div>
+            <button
+              onClick={() => { setLocation(null); setSelectedEvent(null) }}
+              style={{
+                background: 'transparent', border: 'none',
+                color: 'var(--text)', cursor: 'pointer', fontSize: 12,
+              }}
+            >
+              Change
+            </button>
           </div>
         )}
       </div>
@@ -185,8 +304,8 @@ export default function SatelliteFetcher({ onReady }) {
       {/* ── Single date pickers ── */}
       <div style={{ display: 'flex', gap: 16, marginBottom: 24, flexWrap: 'wrap' }}>
         {[
-          { label: 'Before Event', emoji: '🌿', value: beforeDate, onChange: setBeforeDate },
-          { label: 'After Event',  emoji: '🔥', value: afterDate,  onChange: setAfterDate  },
+          { label: 'Before Event (Baseline)', emoji: '🌿', value: beforeDate, onChange: setBeforeDate },
+          { label: 'After Event (Post-Disaster)',  emoji: '🔥', value: afterDate,  onChange: setAfterDate  },
         ].map(({ label, emoji, value, onChange }) => (
           <div key={label} style={{
             flex: 1, minWidth: 200,
@@ -201,7 +320,7 @@ export default function SatelliteFetcher({ onReady }) {
             </div>
             <Input type="date" value={value} onChange={e => onChange(e.target.value)} />
             <div style={{ fontSize: 11, color: 'var(--text)', marginTop: 6 }}>
-              Sentinel Hub searches ±{WINDOW_DAYS} days for the clearest image
+              Sentinel-2 L2A orbital search window: ±{WINDOW_DAYS} days
             </div>
           </div>
         ))}
@@ -213,7 +332,7 @@ export default function SatelliteFetcher({ onReady }) {
           cursor: 'pointer', fontSize: 13, fontWeight: 600,
           color: 'var(--text)', userSelect: 'none', padding: '10px 0',
         }}>
-          ⚙ Advanced Options
+          ⚙ Advanced Options (Radius & Cloud Tolerance)
         </summary>
         <div style={{
           marginTop: 12, background: 'var(--bg-subtle)', border: '1px solid var(--border)',
@@ -221,10 +340,10 @@ export default function SatelliteFetcher({ onReady }) {
         }}>
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-h)', marginBottom: 4 }}>
-              Area Radius: <code>{radiusKm} km</code>
+              Survey Radius: <code>{radiusKm} km</code>
             </div>
             <div style={{ fontSize: 12, color: 'var(--text)', marginBottom: 8 }}>
-              Half-width of the bounding box around the location
+              Half-width of bounding box centered on coordinates
             </div>
             <input type="range" min="1" max="30" value={radiusKm}
               onChange={e => setRadiusKm(Number(e.target.value))}
@@ -236,7 +355,7 @@ export default function SatelliteFetcher({ onReady }) {
               Max Cloud Cover: <code>{maxCloud}%</code>
             </div>
             <div style={{ fontSize: 12, color: 'var(--text)', marginBottom: 8 }}>
-              Reject images with more cloud coverage than this
+              Tolerate cloudy passes (monsoon floods usually require 50-70%)
             </div>
             <input type="range" min="0" max="90" value={maxCloud}
               onChange={e => setMaxCloud(Number(e.target.value))}
@@ -276,23 +395,23 @@ export default function SatelliteFetcher({ onReady }) {
           : !clientId || !clientSecret
             ? 'Missing VITE_CLIENT_ID or VITE_CLIENT_SECRET in .env'
             : !location
-              ? 'Search for a location above'
-              : '🛰️ Fetch Satellite Images'}
+              ? 'Select a disaster preset or search a location above'
+              : '🛰️ Fetch Sentinel-2 Satellite Images'}
       </button>
 
       {/* ── Preview ── */}
       {preview && (
         <div>
           <div style={{ fontWeight: 600, color: 'var(--text-h)', marginBottom: 16, fontSize: 15 }}>
-            ✅ Images fetched from Sentinel-2
+            ✅ Imagery successfully retrieved from Sentinel-2 L2A
           </div>
           <div style={{ display: 'flex', gap: 16, marginBottom: 24, flexWrap: 'wrap' }}>
-            <ImagePreview label="Before" emoji="🌿" file={preview.beforeFile} />
-            <ImagePreview label="After"  emoji="🔥" file={preview.afterFile}  />
+            <ImagePreview label="Before Event" emoji="🌿" file={preview.beforeFile} />
+            <ImagePreview label="After Event"  emoji="🔥" file={preview.afterFile}  />
           </div>
           <div style={{ textAlign: 'center' }}>
             <button
-              onClick={() => onReady(preview.beforeFile, preview.afterFile)}
+              onClick={handleRunAnalysis}
               style={{
                 padding: '14px 40px', borderRadius: 10, border: 'none',
                 background: 'linear-gradient(135deg, var(--accent), #6366f1)',

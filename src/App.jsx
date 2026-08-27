@@ -16,12 +16,12 @@ export default function App() {
     uploadRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
-  const handleAnalyze = async (beforeFile, afterFile, threshold) => {
+  const handleAnalyze = async (beforeFile, afterFile, threshold, meta = null) => {
     setState('loading')
     setError(null)
     try {
       const data = await runAnalysis(beforeFile, afterFile, threshold)
-      setAnalysisData(data)
+      setAnalysisData({ ...data, meta })
       setState('done')
       // Scroll to results
       setTimeout(() => {
@@ -137,6 +137,7 @@ export default function App() {
             results={analysisData.results}
             beforeUrl={analysisData.beforeUrl}
             afterUrl={analysisData.afterUrl}
+            meta={analysisData.meta}
             onExport={handleExport}
           />
         </div>

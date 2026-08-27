@@ -133,8 +133,8 @@ export default function UploadSection({ onAnalyze }) {
   const manualReady = beforeFile && afterFile
 
   // Called by SatelliteFetcher when both images are ready
-  const handleSatelliteReady = (bf, af) => {
-    onAnalyze(bf, af, threshold)
+  const handleSatelliteReady = (bf, af, meta) => {
+    onAnalyze(bf, af, threshold, meta)
   }
 
   return (

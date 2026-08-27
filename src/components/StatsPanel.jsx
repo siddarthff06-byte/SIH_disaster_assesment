@@ -1,4 +1,8 @@
-export default function StatsPanel({ results, beforeUrl, afterUrl, onExport }) {
+import { useState } from 'react'
+import { downloadDisasterReport } from '../reportGenerator'
+
+export default function StatsPanel({ results, beforeUrl, afterUrl, meta, onExport }) {
+  const [generatingPdf, setGeneratingPdf] = useState(false)
   const total = results.length
   const counts = { intact: 0, damaged: 0, destroyed: 0 }
   for (const r of results) counts[r.severity]++
@@ -56,6 +60,27 @@ export default function StatsPanel({ results, beforeUrl, afterUrl, onExport }) {
     ? (results.reduce((s, r) => s + r.loss_ratio, 0) / results.length * 100).toFixed(1)
     : 0
 
+  const handleDownloadPdf = async () => {
+    setGeneratingPdf(true)
+    try {
+      await downloadDisasterReport({
+        disasterInfo: meta?.disasterInfo,
+        locationText: meta?.locationText || 'Disaster Area',
+        coordinates: meta?.coordinates || '',
+        beforeDate: meta?.beforeDate || 'Pre-Event',
+        afterDate: meta?.afterDate || 'Post-Event',
+        beforeUrl,
+        afterUrl,
+        results,
+        counts,
+      })
+    } catch (e) {
+      console.error('Failed to generate PDF:', e)
+    } finally {
+      setGeneratingPdf(false)
+    }
+  }
+
   return (
     <section style={{
       maxWidth: 1200, margin: '0 auto', padding: '80px 24px',
@@ -71,7 +96,7 @@ export default function StatsPanel({ results, beforeUrl, afterUrl, onExport }) {
           Assessment Report
         </h2>
         <p style={{ color: 'var(--text)' }}>
-          Aggregated statistics from the {total} classified building cells.
+          Aggregated statistics from the {total} classified building sectors.
         </p>
       </div>
 
@@ -170,23 +195,40 @@ export default function StatsPanel({ results, beforeUrl, afterUrl, onExport }) {
         </div>
       </div>
 
-      {/* Export */}
-      <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-        <button onClick={onExport} style={{
-          padding: '12px 28px', borderRadius: 10,
-          background: 'linear-gradient(135deg, var(--accent), #6366f1)',
-          border: 'none', color: '#fff',
-          fontSize: 15, fontWeight: 600, cursor: 'pointer',
-          boxShadow: '0 4px 20px rgba(170,59,255,0.3)',
-        }}>
-          ⬇ Export severity_output.csv
+      {/* Export & Actions */}
+      <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
+        <button
+          onClick={handleDownloadPdf}
+          disabled={generatingPdf}
+          style={{
+            padding: '13px 30px', borderRadius: 10,
+            background: 'linear-gradient(135deg, #0ea5e9, #6366f1)',
+            border: 'none', color: '#fff',
+            fontSize: 15, fontWeight: 600, cursor: generatingPdf ? 'wait' : 'pointer',
+            boxShadow: '0 4px 20px rgba(14,165,233,0.3)',
+            display: 'flex', alignItems: 'center', gap: 8,
+          }}
+        >
+          <span>📄</span> {generatingPdf ? 'Generating PDF…' : 'Download Disaster PDF Report'}
         </button>
-        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{
-          padding: '12px 28px', borderRadius: 10,
+
+        <button onClick={onExport} style={{
+          padding: '13px 26px', borderRadius: 10,
           background: 'var(--bg-subtle)',
           border: '1px solid var(--border)',
           color: 'var(--text-h)',
-          fontSize: 15, fontWeight: 500, cursor: 'pointer',
+          fontSize: 14, fontWeight: 600, cursor: 'pointer',
+          display: 'flex', alignItems: 'center', gap: 6,
+        }}>
+          <span>⬇</span> Export CSV Data
+        </button>
+
+        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{
+          padding: '13px 24px', borderRadius: 10,
+          background: 'transparent',
+          border: '1px solid var(--border)',
+          color: 'var(--text)',
+          fontSize: 14, fontWeight: 500, cursor: 'pointer',
         }}>
           ↑ Run Another Analysis
         </button>
