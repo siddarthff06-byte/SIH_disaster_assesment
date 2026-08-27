@@ -37,31 +37,6 @@ VISTA retrieves real-world Earth Observation (EO) data from the **Copernicus Dat
 
 ---
 
-## 🔬 Mathematical Methodology & Severity Calculation
-
-When two multi-temporal satellite captures are loaded, VISTA processes them through the following computer-vision pipeline:
-
-### 1. Luminance Radiometric Conversion
-Standard ITU-R BT.601 luminance weighting converts RGB pixels into surface brightness matrices:
-$$Y = 0.299 \cdot R + 0.587 \cdot G + 0.114 \cdot B$$
-
-### 2. Binary Change Mask Generation
-Measures pixel-level radiometric variance exceeding the configurable threshold $T$ (default $T = 30$):
-$$\text{ChangeMask}[x, y] = \begin{cases} 1 & \text{if } |Y_{\text{after}}[x, y] - Y_{\text{before}}[x, y]| > T \\ 0 & \text{otherwise} \end{cases}$$
-
-### 3. Spatial Grid Discretization (32×32 Grid)
-The 512×512 image is discretized into $N = 1,024$ spatial sectors ($16 \times 16$ pixels per sector, corresponding to $\approx 160\text{m} \times 160\text{m}$ ground footprint).
-
-### 4. Sector Loss Ratio & Damage Classification
-For each sector $S_{i,j}$, the ratio of changed pixels to total sector area is calculated:
-$$\text{Loss Ratio}(S_{i,j}) = 1 - \frac{\sum_{(x,y) \in S_{i,j}} [ \text{ChangeMask}[x,y] == 0 ]}{|S_{i,j}|}$$
-
-- **Intact:** $\text{Loss Ratio} < 0.20$
-- **Damaged:** $0.20 \le \text{Loss Ratio} < 0.60$
-- **Destroyed:** $\text{Loss Ratio} \ge 0.60$
-
----
-
 ## 🎯 Cross-Verification & Ground-Truth Benchmarks
 
 VISTA's spatial damage signatures are cross-referenced and benchmarked against authoritative disaster observation registries:
