@@ -6,15 +6,16 @@
  * Geocoding:  Nominatim (OpenStreetMap) — no key required
  */
 
-const IS_DEV = import.meta.env.DEV
+const IS_DEV =
+  typeof import.meta !== 'undefined' && Boolean(import.meta.env?.DEV)
 
 const TOKEN_URL = IS_DEV
   ? '/cdse-auth/auth/realms/CDSE/protocol/openid-connect/token'
-  : 'https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token'
+  : '/api/token'
 
 const PROCESS_URL = IS_DEV
   ? '/sentinel-process/api/v1/process'
-  : 'https://sh.dataspace.copernicus.eu/api/v1/process'
+  : '/api/process'
 
 const GEOCODE_URL = 'https://nominatim.openstreetmap.org/search'
 
