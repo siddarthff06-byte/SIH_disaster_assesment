@@ -41,6 +41,31 @@ VISTA is built using React and Vite.
 VISTA is highly optimized for serverless hosting environments like **Vercel** or **Netlify**. 
 Simply link your GitHub repository to your preferred platform, and ensure you configure `VITE_CLIENT_ID` and `VITE_CLIENT_SECRET` in the platform's environment variables dashboard.
 
+## Example Usage for Testing
+
+To test the satellite fetching and analysis capabilities, you can use the following known disaster events which have clear Sentinel-2 imagery available:
+
+### 1. Maui Wildfires (Hawaii, USA) - Aug 2023
+- **Location:** `Lahaina, Hawaii`
+- **Before Date:** `2023-07-25`
+- **After Date:** `2023-08-15`
+- **Cloud Cover:** `10%`
+- **Radius:** `5 km`
+
+### 2. Kahramanmaraş Earthquake (Turkey) - Feb 2023
+- **Location:** `Kahramanmaraş, Turkey`
+- **Before Date:** `2023-01-20`
+- **After Date:** `2023-02-20`
+- **Cloud Cover:** `20%`
+- **Radius:** `10 km`
+
+### 3. Wayanad Landslides (Kerala, India) - July 2024
+- **Location:** `Wayanad, Kerala, India`
+- **Before Date:** `2024-05-15`
+- **After Date:** `2024-08-15`
+- **Cloud Cover:** `40%` *(higher cloud tolerance needed due to monsoon season)*
+- **Radius:** `8 km`
+
 ## Architecture & Logic
 
 - `src/components/SatelliteFetcher.jsx`: Manages the OAuth2 flow with Copernicus and requests 512x512 PNG tiles for the specified location and dates.
