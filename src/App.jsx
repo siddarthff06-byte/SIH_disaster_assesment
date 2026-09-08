@@ -4,13 +4,19 @@ import Hero from './components/Hero'
 import UploadSection from './components/UploadSection'
 import SeverityGrid from './components/SeverityGrid'
 import StatsPanel from './components/StatsPanel'
+import LoginScreen from './components/LoginScreen'
 import { runAnalysis } from './analysis'
 
 export default function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [state, setState] = useState('idle')   // idle | loading | done
   const [analysisData, setAnalysisData] = useState(null)
   const [error, setError] = useState(null)
   const uploadRef = useRef()
+
+  if (!isAuthenticated) {
+    return <LoginScreen onLogin={() => setIsAuthenticated(true)} />
+  }
 
   const scrollToUpload = () => {
     uploadRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
