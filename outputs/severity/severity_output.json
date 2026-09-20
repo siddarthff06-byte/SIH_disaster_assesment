@@ -1,0 +1,7170 @@
+[
+  {
+    "building_id": "B_0_0",
+    "row": 0,
+    "col": 0,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_1",
+    "row": 0,
+    "col": 1,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_2",
+    "row": 0,
+    "col": 2,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_3",
+    "row": 0,
+    "col": 3,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_4",
+    "row": 0,
+    "col": 4,
+    "loss_ratio": 0.98,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_5",
+    "row": 0,
+    "col": 5,
+    "loss_ratio": 0.949,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_6",
+    "row": 0,
+    "col": 6,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_7",
+    "row": 0,
+    "col": 7,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_8",
+    "row": 0,
+    "col": 8,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_9",
+    "row": 0,
+    "col": 9,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_10",
+    "row": 0,
+    "col": 10,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_11",
+    "row": 0,
+    "col": 11,
+    "loss_ratio": 0.961,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_12",
+    "row": 0,
+    "col": 12,
+    "loss_ratio": 0.965,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_13",
+    "row": 0,
+    "col": 13,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_14",
+    "row": 0,
+    "col": 14,
+    "loss_ratio": 0.926,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_15",
+    "row": 0,
+    "col": 15,
+    "loss_ratio": 0.918,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_16",
+    "row": 0,
+    "col": 16,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_17",
+    "row": 0,
+    "col": 17,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_18",
+    "row": 0,
+    "col": 18,
+    "loss_ratio": 0.949,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_19",
+    "row": 0,
+    "col": 19,
+    "loss_ratio": 0.93,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_20",
+    "row": 0,
+    "col": 20,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_21",
+    "row": 0,
+    "col": 21,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_22",
+    "row": 0,
+    "col": 22,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_23",
+    "row": 0,
+    "col": 23,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_24",
+    "row": 0,
+    "col": 24,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_25",
+    "row": 0,
+    "col": 25,
+    "loss_ratio": 0.965,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_26",
+    "row": 0,
+    "col": 26,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_27",
+    "row": 0,
+    "col": 27,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_28",
+    "row": 0,
+    "col": 28,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_29",
+    "row": 0,
+    "col": 29,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_30",
+    "row": 0,
+    "col": 30,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_0_31",
+    "row": 0,
+    "col": 31,
+    "loss_ratio": 0.82,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_0",
+    "row": 1,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_1",
+    "row": 1,
+    "col": 1,
+    "loss_ratio": 0.57,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_2",
+    "row": 1,
+    "col": 2,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_3",
+    "row": 1,
+    "col": 3,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_4",
+    "row": 1,
+    "col": 4,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_5",
+    "row": 1,
+    "col": 5,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_6",
+    "row": 1,
+    "col": 6,
+    "loss_ratio": 0.781,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_7",
+    "row": 1,
+    "col": 7,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_8",
+    "row": 1,
+    "col": 8,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_9",
+    "row": 1,
+    "col": 9,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_10",
+    "row": 1,
+    "col": 10,
+    "loss_ratio": 0.703,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_11",
+    "row": 1,
+    "col": 11,
+    "loss_ratio": 0.145,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_12",
+    "row": 1,
+    "col": 12,
+    "loss_ratio": 0.148,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_13",
+    "row": 1,
+    "col": 13,
+    "loss_ratio": 0.164,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_14",
+    "row": 1,
+    "col": 14,
+    "loss_ratio": 0.223,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_15",
+    "row": 1,
+    "col": 15,
+    "loss_ratio": 0.313,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_16",
+    "row": 1,
+    "col": 16,
+    "loss_ratio": 0.18,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_17",
+    "row": 1,
+    "col": 17,
+    "loss_ratio": 0.391,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_18",
+    "row": 1,
+    "col": 18,
+    "loss_ratio": 0.266,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_19",
+    "row": 1,
+    "col": 19,
+    "loss_ratio": 0.148,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_20",
+    "row": 1,
+    "col": 20,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_21",
+    "row": 1,
+    "col": 21,
+    "loss_ratio": 0.145,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_22",
+    "row": 1,
+    "col": 22,
+    "loss_ratio": 0.137,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_23",
+    "row": 1,
+    "col": 23,
+    "loss_ratio": 0.48,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_24",
+    "row": 1,
+    "col": 24,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_1_25",
+    "row": 1,
+    "col": 25,
+    "loss_ratio": 0.387,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_26",
+    "row": 1,
+    "col": 26,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_27",
+    "row": 1,
+    "col": 27,
+    "loss_ratio": 0.5,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_28",
+    "row": 1,
+    "col": 28,
+    "loss_ratio": 0.199,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_1_29",
+    "row": 1,
+    "col": 29,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_30",
+    "row": 1,
+    "col": 30,
+    "loss_ratio": 0.242,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_1_31",
+    "row": 1,
+    "col": 31,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_0",
+    "row": 2,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_1",
+    "row": 2,
+    "col": 1,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_2",
+    "row": 2,
+    "col": 2,
+    "loss_ratio": 0.91,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_3",
+    "row": 2,
+    "col": 3,
+    "loss_ratio": 0.344,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_4",
+    "row": 2,
+    "col": 4,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_5",
+    "row": 2,
+    "col": 5,
+    "loss_ratio": 0.477,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_6",
+    "row": 2,
+    "col": 6,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_7",
+    "row": 2,
+    "col": 7,
+    "loss_ratio": 0.652,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_8",
+    "row": 2,
+    "col": 8,
+    "loss_ratio": 0.406,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_9",
+    "row": 2,
+    "col": 9,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_10",
+    "row": 2,
+    "col": 10,
+    "loss_ratio": 0.375,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_11",
+    "row": 2,
+    "col": 11,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_12",
+    "row": 2,
+    "col": 12,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_13",
+    "row": 2,
+    "col": 13,
+    "loss_ratio": 0.063,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_14",
+    "row": 2,
+    "col": 14,
+    "loss_ratio": 0.355,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_15",
+    "row": 2,
+    "col": 15,
+    "loss_ratio": 0.73,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_16",
+    "row": 2,
+    "col": 16,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_17",
+    "row": 2,
+    "col": 17,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_18",
+    "row": 2,
+    "col": 18,
+    "loss_ratio": 0.465,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_19",
+    "row": 2,
+    "col": 19,
+    "loss_ratio": 0.047,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_20",
+    "row": 2,
+    "col": 20,
+    "loss_ratio": 0.004,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_21",
+    "row": 2,
+    "col": 21,
+    "loss_ratio": 0.043,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_22",
+    "row": 2,
+    "col": 22,
+    "loss_ratio": 0.039,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_23",
+    "row": 2,
+    "col": 23,
+    "loss_ratio": 0.117,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_24",
+    "row": 2,
+    "col": 24,
+    "loss_ratio": 0.242,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_25",
+    "row": 2,
+    "col": 25,
+    "loss_ratio": 0.461,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_26",
+    "row": 2,
+    "col": 26,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_2_27",
+    "row": 2,
+    "col": 27,
+    "loss_ratio": 0.324,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_28",
+    "row": 2,
+    "col": 28,
+    "loss_ratio": 0.266,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_2_29",
+    "row": 2,
+    "col": 29,
+    "loss_ratio": 0.035,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_30",
+    "row": 2,
+    "col": 30,
+    "loss_ratio": 0.121,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_2_31",
+    "row": 2,
+    "col": 31,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_0",
+    "row": 3,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_1",
+    "row": 3,
+    "col": 1,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_2",
+    "row": 3,
+    "col": 2,
+    "loss_ratio": 0.469,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_3",
+    "row": 3,
+    "col": 3,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_4",
+    "row": 3,
+    "col": 4,
+    "loss_ratio": 0.191,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_5",
+    "row": 3,
+    "col": 5,
+    "loss_ratio": 0.066,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_6",
+    "row": 3,
+    "col": 6,
+    "loss_ratio": 0.375,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_7",
+    "row": 3,
+    "col": 7,
+    "loss_ratio": 0.703,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_8",
+    "row": 3,
+    "col": 8,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_9",
+    "row": 3,
+    "col": 9,
+    "loss_ratio": 0.664,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_10",
+    "row": 3,
+    "col": 10,
+    "loss_ratio": 0.547,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_11",
+    "row": 3,
+    "col": 11,
+    "loss_ratio": 0.75,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_12",
+    "row": 3,
+    "col": 12,
+    "loss_ratio": 0.172,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_13",
+    "row": 3,
+    "col": 13,
+    "loss_ratio": 0.082,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_14",
+    "row": 3,
+    "col": 14,
+    "loss_ratio": 0.25,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_15",
+    "row": 3,
+    "col": 15,
+    "loss_ratio": 0.211,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_16",
+    "row": 3,
+    "col": 16,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_17",
+    "row": 3,
+    "col": 17,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_18",
+    "row": 3,
+    "col": 18,
+    "loss_ratio": 0.832,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_19",
+    "row": 3,
+    "col": 19,
+    "loss_ratio": 0.313,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_20",
+    "row": 3,
+    "col": 20,
+    "loss_ratio": 0.227,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_21",
+    "row": 3,
+    "col": 21,
+    "loss_ratio": 0.621,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_22",
+    "row": 3,
+    "col": 22,
+    "loss_ratio": 0.863,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_23",
+    "row": 3,
+    "col": 23,
+    "loss_ratio": 0.832,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_24",
+    "row": 3,
+    "col": 24,
+    "loss_ratio": 0.738,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_3_25",
+    "row": 3,
+    "col": 25,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_26",
+    "row": 3,
+    "col": 26,
+    "loss_ratio": 0.121,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_27",
+    "row": 3,
+    "col": 27,
+    "loss_ratio": 0.246,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_28",
+    "row": 3,
+    "col": 28,
+    "loss_ratio": 0.168,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_29",
+    "row": 3,
+    "col": 29,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_3_30",
+    "row": 3,
+    "col": 30,
+    "loss_ratio": 0.102,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_3_31",
+    "row": 3,
+    "col": 31,
+    "loss_ratio": 0.539,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_0",
+    "row": 4,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_1",
+    "row": 4,
+    "col": 1,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_2",
+    "row": 4,
+    "col": 2,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_3",
+    "row": 4,
+    "col": 3,
+    "loss_ratio": 0.219,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_4",
+    "row": 4,
+    "col": 4,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_4_5",
+    "row": 4,
+    "col": 5,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_4_6",
+    "row": 4,
+    "col": 6,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_7",
+    "row": 4,
+    "col": 7,
+    "loss_ratio": 0.48,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_8",
+    "row": 4,
+    "col": 8,
+    "loss_ratio": 0.93,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_9",
+    "row": 4,
+    "col": 9,
+    "loss_ratio": 0.383,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_10",
+    "row": 4,
+    "col": 10,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_11",
+    "row": 4,
+    "col": 11,
+    "loss_ratio": 0.5,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_12",
+    "row": 4,
+    "col": 12,
+    "loss_ratio": 0.027,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_4_13",
+    "row": 4,
+    "col": 13,
+    "loss_ratio": 0.695,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_14",
+    "row": 4,
+    "col": 14,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_15",
+    "row": 4,
+    "col": 15,
+    "loss_ratio": 0.703,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_16",
+    "row": 4,
+    "col": 16,
+    "loss_ratio": 0.809,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_17",
+    "row": 4,
+    "col": 17,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_18",
+    "row": 4,
+    "col": 18,
+    "loss_ratio": 0.813,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_19",
+    "row": 4,
+    "col": 19,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_20",
+    "row": 4,
+    "col": 20,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_21",
+    "row": 4,
+    "col": 21,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_22",
+    "row": 4,
+    "col": 22,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_23",
+    "row": 4,
+    "col": 23,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_24",
+    "row": 4,
+    "col": 24,
+    "loss_ratio": 0.543,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_25",
+    "row": 4,
+    "col": 25,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_26",
+    "row": 4,
+    "col": 26,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_27",
+    "row": 4,
+    "col": 27,
+    "loss_ratio": 0.91,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_28",
+    "row": 4,
+    "col": 28,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_29",
+    "row": 4,
+    "col": 29,
+    "loss_ratio": 0.672,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_4_30",
+    "row": 4,
+    "col": 30,
+    "loss_ratio": 0.586,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_4_31",
+    "row": 4,
+    "col": 31,
+    "loss_ratio": 0.559,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_0",
+    "row": 5,
+    "col": 0,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_1",
+    "row": 5,
+    "col": 1,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_2",
+    "row": 5,
+    "col": 2,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_3",
+    "row": 5,
+    "col": 3,
+    "loss_ratio": 0.246,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_4",
+    "row": 5,
+    "col": 4,
+    "loss_ratio": 0.348,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_5",
+    "row": 5,
+    "col": 5,
+    "loss_ratio": 0.105,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_5_6",
+    "row": 5,
+    "col": 6,
+    "loss_ratio": 0.672,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_7",
+    "row": 5,
+    "col": 7,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_8",
+    "row": 5,
+    "col": 8,
+    "loss_ratio": 0.738,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_9",
+    "row": 5,
+    "col": 9,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_10",
+    "row": 5,
+    "col": 10,
+    "loss_ratio": 0.434,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_11",
+    "row": 5,
+    "col": 11,
+    "loss_ratio": 0.535,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_12",
+    "row": 5,
+    "col": 12,
+    "loss_ratio": 0.184,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_5_13",
+    "row": 5,
+    "col": 13,
+    "loss_ratio": 0.496,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_14",
+    "row": 5,
+    "col": 14,
+    "loss_ratio": 0.582,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_15",
+    "row": 5,
+    "col": 15,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_16",
+    "row": 5,
+    "col": 16,
+    "loss_ratio": 0.539,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_17",
+    "row": 5,
+    "col": 17,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_18",
+    "row": 5,
+    "col": 18,
+    "loss_ratio": 0.188,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_5_19",
+    "row": 5,
+    "col": 19,
+    "loss_ratio": 0.465,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_20",
+    "row": 5,
+    "col": 20,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_21",
+    "row": 5,
+    "col": 21,
+    "loss_ratio": 0.496,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_22",
+    "row": 5,
+    "col": 22,
+    "loss_ratio": 0.738,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_23",
+    "row": 5,
+    "col": 23,
+    "loss_ratio": 0.512,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_24",
+    "row": 5,
+    "col": 24,
+    "loss_ratio": 0.371,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_25",
+    "row": 5,
+    "col": 25,
+    "loss_ratio": 0.348,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_26",
+    "row": 5,
+    "col": 26,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_27",
+    "row": 5,
+    "col": 27,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_28",
+    "row": 5,
+    "col": 28,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_29",
+    "row": 5,
+    "col": 29,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_5_30",
+    "row": 5,
+    "col": 30,
+    "loss_ratio": 0.512,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_5_31",
+    "row": 5,
+    "col": 31,
+    "loss_ratio": 0.488,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_0",
+    "row": 6,
+    "col": 0,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_1",
+    "row": 6,
+    "col": 1,
+    "loss_ratio": 0.73,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_2",
+    "row": 6,
+    "col": 2,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_3",
+    "row": 6,
+    "col": 3,
+    "loss_ratio": 0.637,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_4",
+    "row": 6,
+    "col": 4,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_5",
+    "row": 6,
+    "col": 5,
+    "loss_ratio": 0.195,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_6",
+    "row": 6,
+    "col": 6,
+    "loss_ratio": 0.395,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_7",
+    "row": 6,
+    "col": 7,
+    "loss_ratio": 0.957,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_8",
+    "row": 6,
+    "col": 8,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_9",
+    "row": 6,
+    "col": 9,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_10",
+    "row": 6,
+    "col": 10,
+    "loss_ratio": 0.676,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_11",
+    "row": 6,
+    "col": 11,
+    "loss_ratio": 0.672,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_12",
+    "row": 6,
+    "col": 12,
+    "loss_ratio": 0.113,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_13",
+    "row": 6,
+    "col": 13,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_14",
+    "row": 6,
+    "col": 14,
+    "loss_ratio": 0.168,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_15",
+    "row": 6,
+    "col": 15,
+    "loss_ratio": 0.227,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_16",
+    "row": 6,
+    "col": 16,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_17",
+    "row": 6,
+    "col": 17,
+    "loss_ratio": 0.105,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_18",
+    "row": 6,
+    "col": 18,
+    "loss_ratio": 0.125,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_19",
+    "row": 6,
+    "col": 19,
+    "loss_ratio": 0.27,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_20",
+    "row": 6,
+    "col": 20,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_21",
+    "row": 6,
+    "col": 21,
+    "loss_ratio": 0.063,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_22",
+    "row": 6,
+    "col": 22,
+    "loss_ratio": 0.172,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_23",
+    "row": 6,
+    "col": 23,
+    "loss_ratio": 0.336,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_24",
+    "row": 6,
+    "col": 24,
+    "loss_ratio": 0.367,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_25",
+    "row": 6,
+    "col": 25,
+    "loss_ratio": 0.352,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_26",
+    "row": 6,
+    "col": 26,
+    "loss_ratio": 0.164,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_6_27",
+    "row": 6,
+    "col": 27,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_28",
+    "row": 6,
+    "col": 28,
+    "loss_ratio": 0.535,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_29",
+    "row": 6,
+    "col": 29,
+    "loss_ratio": 0.859,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_6_30",
+    "row": 6,
+    "col": 30,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_6_31",
+    "row": 6,
+    "col": 31,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_0",
+    "row": 7,
+    "col": 0,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_1",
+    "row": 7,
+    "col": 1,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_2",
+    "row": 7,
+    "col": 2,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_3",
+    "row": 7,
+    "col": 3,
+    "loss_ratio": 0.57,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_4",
+    "row": 7,
+    "col": 4,
+    "loss_ratio": 0.641,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_5",
+    "row": 7,
+    "col": 5,
+    "loss_ratio": 0.469,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_6",
+    "row": 7,
+    "col": 6,
+    "loss_ratio": 0.199,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_7",
+    "row": 7,
+    "col": 7,
+    "loss_ratio": 0.422,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_8",
+    "row": 7,
+    "col": 8,
+    "loss_ratio": 0.27,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_9",
+    "row": 7,
+    "col": 9,
+    "loss_ratio": 0.008,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_10",
+    "row": 7,
+    "col": 10,
+    "loss_ratio": 0.344,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_11",
+    "row": 7,
+    "col": 11,
+    "loss_ratio": 0.207,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_12",
+    "row": 7,
+    "col": 12,
+    "loss_ratio": 0.355,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_13",
+    "row": 7,
+    "col": 13,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_14",
+    "row": 7,
+    "col": 14,
+    "loss_ratio": 0.164,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_15",
+    "row": 7,
+    "col": 15,
+    "loss_ratio": 0.035,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_16",
+    "row": 7,
+    "col": 16,
+    "loss_ratio": 0.168,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_17",
+    "row": 7,
+    "col": 17,
+    "loss_ratio": 0.094,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_18",
+    "row": 7,
+    "col": 18,
+    "loss_ratio": 0.457,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_19",
+    "row": 7,
+    "col": 19,
+    "loss_ratio": 0.395,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_20",
+    "row": 7,
+    "col": 20,
+    "loss_ratio": 0.141,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_7_21",
+    "row": 7,
+    "col": 21,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_22",
+    "row": 7,
+    "col": 22,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_23",
+    "row": 7,
+    "col": 23,
+    "loss_ratio": 0.379,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_24",
+    "row": 7,
+    "col": 24,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_25",
+    "row": 7,
+    "col": 25,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_26",
+    "row": 7,
+    "col": 26,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_27",
+    "row": 7,
+    "col": 27,
+    "loss_ratio": 0.832,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_28",
+    "row": 7,
+    "col": 28,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_29",
+    "row": 7,
+    "col": 29,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_7_30",
+    "row": 7,
+    "col": 30,
+    "loss_ratio": 0.402,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_7_31",
+    "row": 7,
+    "col": 31,
+    "loss_ratio": 0.645,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_0",
+    "row": 8,
+    "col": 0,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_1",
+    "row": 8,
+    "col": 1,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_2",
+    "row": 8,
+    "col": 2,
+    "loss_ratio": 0.609,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_3",
+    "row": 8,
+    "col": 3,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_4",
+    "row": 8,
+    "col": 4,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_5",
+    "row": 8,
+    "col": 5,
+    "loss_ratio": 0.676,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_6",
+    "row": 8,
+    "col": 6,
+    "loss_ratio": 0.289,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_7",
+    "row": 8,
+    "col": 7,
+    "loss_ratio": 0.102,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_8_8",
+    "row": 8,
+    "col": 8,
+    "loss_ratio": 0.305,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_9",
+    "row": 8,
+    "col": 9,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_10",
+    "row": 8,
+    "col": 10,
+    "loss_ratio": 0.746,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_11",
+    "row": 8,
+    "col": 11,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_12",
+    "row": 8,
+    "col": 12,
+    "loss_ratio": 0.371,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_13",
+    "row": 8,
+    "col": 13,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_14",
+    "row": 8,
+    "col": 14,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_8_15",
+    "row": 8,
+    "col": 15,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_8_16",
+    "row": 8,
+    "col": 16,
+    "loss_ratio": 0.047,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_8_17",
+    "row": 8,
+    "col": 17,
+    "loss_ratio": 0.262,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_18",
+    "row": 8,
+    "col": 18,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_19",
+    "row": 8,
+    "col": 19,
+    "loss_ratio": 0.902,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_20",
+    "row": 8,
+    "col": 20,
+    "loss_ratio": 0.789,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_21",
+    "row": 8,
+    "col": 21,
+    "loss_ratio": 0.734,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_22",
+    "row": 8,
+    "col": 22,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_23",
+    "row": 8,
+    "col": 23,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_24",
+    "row": 8,
+    "col": 24,
+    "loss_ratio": 0.395,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_8_25",
+    "row": 8,
+    "col": 25,
+    "loss_ratio": 0.652,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_26",
+    "row": 8,
+    "col": 26,
+    "loss_ratio": 0.836,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_27",
+    "row": 8,
+    "col": 27,
+    "loss_ratio": 0.879,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_28",
+    "row": 8,
+    "col": 28,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_29",
+    "row": 8,
+    "col": 29,
+    "loss_ratio": 0.781,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_8_30",
+    "row": 8,
+    "col": 30,
+    "loss_ratio": 0.102,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_8_31",
+    "row": 8,
+    "col": 31,
+    "loss_ratio": 0.477,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_0",
+    "row": 9,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_1",
+    "row": 9,
+    "col": 1,
+    "loss_ratio": 0.793,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_2",
+    "row": 9,
+    "col": 2,
+    "loss_ratio": 0.375,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_3",
+    "row": 9,
+    "col": 3,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_4",
+    "row": 9,
+    "col": 4,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_5",
+    "row": 9,
+    "col": 5,
+    "loss_ratio": 0.902,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_6",
+    "row": 9,
+    "col": 6,
+    "loss_ratio": 0.746,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_7",
+    "row": 9,
+    "col": 7,
+    "loss_ratio": 0.875,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_8",
+    "row": 9,
+    "col": 8,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_9",
+    "row": 9,
+    "col": 9,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_10",
+    "row": 9,
+    "col": 10,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_11",
+    "row": 9,
+    "col": 11,
+    "loss_ratio": 0.898,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_12",
+    "row": 9,
+    "col": 12,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_13",
+    "row": 9,
+    "col": 13,
+    "loss_ratio": 0.488,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_14",
+    "row": 9,
+    "col": 14,
+    "loss_ratio": 0.016,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_9_15",
+    "row": 9,
+    "col": 15,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_9_16",
+    "row": 9,
+    "col": 16,
+    "loss_ratio": 0.133,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_9_17",
+    "row": 9,
+    "col": 17,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_18",
+    "row": 9,
+    "col": 18,
+    "loss_ratio": 0.688,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_19",
+    "row": 9,
+    "col": 19,
+    "loss_ratio": 0.316,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_20",
+    "row": 9,
+    "col": 20,
+    "loss_ratio": 0.523,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_21",
+    "row": 9,
+    "col": 21,
+    "loss_ratio": 0.332,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_9_22",
+    "row": 9,
+    "col": 22,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_23",
+    "row": 9,
+    "col": 23,
+    "loss_ratio": 0.793,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_24",
+    "row": 9,
+    "col": 24,
+    "loss_ratio": 0.836,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_25",
+    "row": 9,
+    "col": 25,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_26",
+    "row": 9,
+    "col": 26,
+    "loss_ratio": 0.895,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_27",
+    "row": 9,
+    "col": 27,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_28",
+    "row": 9,
+    "col": 28,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_29",
+    "row": 9,
+    "col": 29,
+    "loss_ratio": 0.684,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_30",
+    "row": 9,
+    "col": 30,
+    "loss_ratio": 0.773,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_9_31",
+    "row": 9,
+    "col": 31,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_10_0",
+    "row": 10,
+    "col": 0,
+    "loss_ratio": 0.965,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_1",
+    "row": 10,
+    "col": 1,
+    "loss_ratio": 0.602,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_2",
+    "row": 10,
+    "col": 2,
+    "loss_ratio": 0.629,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_3",
+    "row": 10,
+    "col": 3,
+    "loss_ratio": 0.926,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_4",
+    "row": 10,
+    "col": 4,
+    "loss_ratio": 0.98,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_5",
+    "row": 10,
+    "col": 5,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_10_6",
+    "row": 10,
+    "col": 6,
+    "loss_ratio": 0.609,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_7",
+    "row": 10,
+    "col": 7,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_8",
+    "row": 10,
+    "col": 8,
+    "loss_ratio": 0.961,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_9",
+    "row": 10,
+    "col": 9,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_10",
+    "row": 10,
+    "col": 10,
+    "loss_ratio": 0.844,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_11",
+    "row": 10,
+    "col": 11,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_12",
+    "row": 10,
+    "col": 12,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_13",
+    "row": 10,
+    "col": 13,
+    "loss_ratio": 0.637,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_14",
+    "row": 10,
+    "col": 14,
+    "loss_ratio": 0.762,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_15",
+    "row": 10,
+    "col": 15,
+    "loss_ratio": 0.656,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_16",
+    "row": 10,
+    "col": 16,
+    "loss_ratio": 0.453,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_10_17",
+    "row": 10,
+    "col": 17,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_18",
+    "row": 10,
+    "col": 18,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_19",
+    "row": 10,
+    "col": 19,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_20",
+    "row": 10,
+    "col": 20,
+    "loss_ratio": 0.914,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_21",
+    "row": 10,
+    "col": 21,
+    "loss_ratio": 0.914,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_22",
+    "row": 10,
+    "col": 22,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_23",
+    "row": 10,
+    "col": 23,
+    "loss_ratio": 0.906,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_24",
+    "row": 10,
+    "col": 24,
+    "loss_ratio": 0.754,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_25",
+    "row": 10,
+    "col": 25,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_26",
+    "row": 10,
+    "col": 26,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_27",
+    "row": 10,
+    "col": 27,
+    "loss_ratio": 0.82,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_28",
+    "row": 10,
+    "col": 28,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_29",
+    "row": 10,
+    "col": 29,
+    "loss_ratio": 0.531,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_10_30",
+    "row": 10,
+    "col": 30,
+    "loss_ratio": 0.715,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_10_31",
+    "row": 10,
+    "col": 31,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_0",
+    "row": 11,
+    "col": 0,
+    "loss_ratio": 0.977,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_1",
+    "row": 11,
+    "col": 1,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_2",
+    "row": 11,
+    "col": 2,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_3",
+    "row": 11,
+    "col": 3,
+    "loss_ratio": 0.895,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_4",
+    "row": 11,
+    "col": 4,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_5",
+    "row": 11,
+    "col": 5,
+    "loss_ratio": 0.727,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_6",
+    "row": 11,
+    "col": 6,
+    "loss_ratio": 0.355,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_7",
+    "row": 11,
+    "col": 7,
+    "loss_ratio": 0.609,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_8",
+    "row": 11,
+    "col": 8,
+    "loss_ratio": 0.691,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_9",
+    "row": 11,
+    "col": 9,
+    "loss_ratio": 0.688,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_10",
+    "row": 11,
+    "col": 10,
+    "loss_ratio": 0.625,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_11",
+    "row": 11,
+    "col": 11,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_12",
+    "row": 11,
+    "col": 12,
+    "loss_ratio": 0.871,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_13",
+    "row": 11,
+    "col": 13,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_14",
+    "row": 11,
+    "col": 14,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_15",
+    "row": 11,
+    "col": 15,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_16",
+    "row": 11,
+    "col": 16,
+    "loss_ratio": 0.375,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_17",
+    "row": 11,
+    "col": 17,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_18",
+    "row": 11,
+    "col": 18,
+    "loss_ratio": 0.313,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_19",
+    "row": 11,
+    "col": 19,
+    "loss_ratio": 0.621,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_20",
+    "row": 11,
+    "col": 20,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_21",
+    "row": 11,
+    "col": 21,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_22",
+    "row": 11,
+    "col": 22,
+    "loss_ratio": 0.98,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_23",
+    "row": 11,
+    "col": 23,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_24",
+    "row": 11,
+    "col": 24,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_25",
+    "row": 11,
+    "col": 25,
+    "loss_ratio": 0.738,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_26",
+    "row": 11,
+    "col": 26,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_27",
+    "row": 11,
+    "col": 27,
+    "loss_ratio": 0.566,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_28",
+    "row": 11,
+    "col": 28,
+    "loss_ratio": 0.41,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_29",
+    "row": 11,
+    "col": 29,
+    "loss_ratio": 0.289,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_11_30",
+    "row": 11,
+    "col": 30,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_11_31",
+    "row": 11,
+    "col": 31,
+    "loss_ratio": 0.629,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_0",
+    "row": 12,
+    "col": 0,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_1",
+    "row": 12,
+    "col": 1,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_2",
+    "row": 12,
+    "col": 2,
+    "loss_ratio": 0.695,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_3",
+    "row": 12,
+    "col": 3,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_4",
+    "row": 12,
+    "col": 4,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_5",
+    "row": 12,
+    "col": 5,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_6",
+    "row": 12,
+    "col": 6,
+    "loss_ratio": 0.781,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_7",
+    "row": 12,
+    "col": 7,
+    "loss_ratio": 0.238,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_8",
+    "row": 12,
+    "col": 8,
+    "loss_ratio": 0.313,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_9",
+    "row": 12,
+    "col": 9,
+    "loss_ratio": 0.242,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_10",
+    "row": 12,
+    "col": 10,
+    "loss_ratio": 0.492,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_11",
+    "row": 12,
+    "col": 11,
+    "loss_ratio": 0.477,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_12",
+    "row": 12,
+    "col": 12,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_13",
+    "row": 12,
+    "col": 13,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_14",
+    "row": 12,
+    "col": 14,
+    "loss_ratio": 0.965,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_15",
+    "row": 12,
+    "col": 15,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_16",
+    "row": 12,
+    "col": 16,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_17",
+    "row": 12,
+    "col": 17,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_18",
+    "row": 12,
+    "col": 18,
+    "loss_ratio": 0.297,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_19",
+    "row": 12,
+    "col": 19,
+    "loss_ratio": 0.012,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_12_20",
+    "row": 12,
+    "col": 20,
+    "loss_ratio": 0.129,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_12_21",
+    "row": 12,
+    "col": 21,
+    "loss_ratio": 0.566,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_22",
+    "row": 12,
+    "col": 22,
+    "loss_ratio": 0.832,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_23",
+    "row": 12,
+    "col": 23,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_24",
+    "row": 12,
+    "col": 24,
+    "loss_ratio": 0.836,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_25",
+    "row": 12,
+    "col": 25,
+    "loss_ratio": 0.875,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_26",
+    "row": 12,
+    "col": 26,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_27",
+    "row": 12,
+    "col": 27,
+    "loss_ratio": 0.348,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_12_28",
+    "row": 12,
+    "col": 28,
+    "loss_ratio": 0.078,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_12_29",
+    "row": 12,
+    "col": 29,
+    "loss_ratio": 0.191,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_12_30",
+    "row": 12,
+    "col": 30,
+    "loss_ratio": 0.922,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_12_31",
+    "row": 12,
+    "col": 31,
+    "loss_ratio": 0.473,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_0",
+    "row": 13,
+    "col": 0,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_1",
+    "row": 13,
+    "col": 1,
+    "loss_ratio": 0.918,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_2",
+    "row": 13,
+    "col": 2,
+    "loss_ratio": 0.863,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_3",
+    "row": 13,
+    "col": 3,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_4",
+    "row": 13,
+    "col": 4,
+    "loss_ratio": 0.746,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_5",
+    "row": 13,
+    "col": 5,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_6",
+    "row": 13,
+    "col": 6,
+    "loss_ratio": 0.703,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_7",
+    "row": 13,
+    "col": 7,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_8",
+    "row": 13,
+    "col": 8,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_9",
+    "row": 13,
+    "col": 9,
+    "loss_ratio": 0.523,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_10",
+    "row": 13,
+    "col": 10,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_11",
+    "row": 13,
+    "col": 11,
+    "loss_ratio": 0.363,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_12",
+    "row": 13,
+    "col": 12,
+    "loss_ratio": 0.457,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_13",
+    "row": 13,
+    "col": 13,
+    "loss_ratio": 0.957,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_14",
+    "row": 13,
+    "col": 14,
+    "loss_ratio": 0.863,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_15",
+    "row": 13,
+    "col": 15,
+    "loss_ratio": 0.734,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_16",
+    "row": 13,
+    "col": 16,
+    "loss_ratio": 0.66,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_17",
+    "row": 13,
+    "col": 17,
+    "loss_ratio": 0.473,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_18",
+    "row": 13,
+    "col": 18,
+    "loss_ratio": 0.215,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_19",
+    "row": 13,
+    "col": 19,
+    "loss_ratio": 0.641,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_20",
+    "row": 13,
+    "col": 20,
+    "loss_ratio": 0.57,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_21",
+    "row": 13,
+    "col": 21,
+    "loss_ratio": 0.918,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_22",
+    "row": 13,
+    "col": 22,
+    "loss_ratio": 0.684,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_23",
+    "row": 13,
+    "col": 23,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_24",
+    "row": 13,
+    "col": 24,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_25",
+    "row": 13,
+    "col": 25,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_26",
+    "row": 13,
+    "col": 26,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_13_27",
+    "row": 13,
+    "col": 27,
+    "loss_ratio": 0.598,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_28",
+    "row": 13,
+    "col": 28,
+    "loss_ratio": 0.094,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_13_29",
+    "row": 13,
+    "col": 29,
+    "loss_ratio": 0.098,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_13_30",
+    "row": 13,
+    "col": 30,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_13_31",
+    "row": 13,
+    "col": 31,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_0",
+    "row": 14,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_1",
+    "row": 14,
+    "col": 1,
+    "loss_ratio": 0.672,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_2",
+    "row": 14,
+    "col": 2,
+    "loss_ratio": 0.25,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_3",
+    "row": 14,
+    "col": 3,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_4",
+    "row": 14,
+    "col": 4,
+    "loss_ratio": 0.305,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_5",
+    "row": 14,
+    "col": 5,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_6",
+    "row": 14,
+    "col": 6,
+    "loss_ratio": 0.84,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_7",
+    "row": 14,
+    "col": 7,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_8",
+    "row": 14,
+    "col": 8,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_9",
+    "row": 14,
+    "col": 9,
+    "loss_ratio": 0.215,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_10",
+    "row": 14,
+    "col": 10,
+    "loss_ratio": 0.789,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_11",
+    "row": 14,
+    "col": 11,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_12",
+    "row": 14,
+    "col": 12,
+    "loss_ratio": 0.086,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_14_13",
+    "row": 14,
+    "col": 13,
+    "loss_ratio": 0.641,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_14",
+    "row": 14,
+    "col": 14,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_15",
+    "row": 14,
+    "col": 15,
+    "loss_ratio": 0.391,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_16",
+    "row": 14,
+    "col": 16,
+    "loss_ratio": 0.086,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_14_17",
+    "row": 14,
+    "col": 17,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_18",
+    "row": 14,
+    "col": 18,
+    "loss_ratio": 0.207,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_19",
+    "row": 14,
+    "col": 19,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_20",
+    "row": 14,
+    "col": 20,
+    "loss_ratio": 0.789,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_21",
+    "row": 14,
+    "col": 21,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_22",
+    "row": 14,
+    "col": 22,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_23",
+    "row": 14,
+    "col": 23,
+    "loss_ratio": 0.688,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_24",
+    "row": 14,
+    "col": 24,
+    "loss_ratio": 0.816,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_25",
+    "row": 14,
+    "col": 25,
+    "loss_ratio": 0.605,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_26",
+    "row": 14,
+    "col": 26,
+    "loss_ratio": 0.516,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_27",
+    "row": 14,
+    "col": 27,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_14_28",
+    "row": 14,
+    "col": 28,
+    "loss_ratio": 0.207,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_29",
+    "row": 14,
+    "col": 29,
+    "loss_ratio": 0.105,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_14_30",
+    "row": 14,
+    "col": 30,
+    "loss_ratio": 0.34,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_14_31",
+    "row": 14,
+    "col": 31,
+    "loss_ratio": 0.586,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_0",
+    "row": 15,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_1",
+    "row": 15,
+    "col": 1,
+    "loss_ratio": 0.773,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_2",
+    "row": 15,
+    "col": 2,
+    "loss_ratio": 0.496,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_3",
+    "row": 15,
+    "col": 3,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_4",
+    "row": 15,
+    "col": 4,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_5",
+    "row": 15,
+    "col": 5,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_6",
+    "row": 15,
+    "col": 6,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_7",
+    "row": 15,
+    "col": 7,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_8",
+    "row": 15,
+    "col": 8,
+    "loss_ratio": 0.531,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_9",
+    "row": 15,
+    "col": 9,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_10",
+    "row": 15,
+    "col": 10,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_11",
+    "row": 15,
+    "col": 11,
+    "loss_ratio": 0.773,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_15_12",
+    "row": 15,
+    "col": 12,
+    "loss_ratio": 0.398,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_13",
+    "row": 15,
+    "col": 13,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_14",
+    "row": 15,
+    "col": 14,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_15",
+    "row": 15,
+    "col": 15,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_16",
+    "row": 15,
+    "col": 16,
+    "loss_ratio": 0.211,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_17",
+    "row": 15,
+    "col": 17,
+    "loss_ratio": 0.219,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_18",
+    "row": 15,
+    "col": 18,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_19",
+    "row": 15,
+    "col": 19,
+    "loss_ratio": 0.129,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_20",
+    "row": 15,
+    "col": 20,
+    "loss_ratio": 0.234,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_21",
+    "row": 15,
+    "col": 21,
+    "loss_ratio": 0.012,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_22",
+    "row": 15,
+    "col": 22,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_23",
+    "row": 15,
+    "col": 23,
+    "loss_ratio": 0.012,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_24",
+    "row": 15,
+    "col": 24,
+    "loss_ratio": 0.004,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_25",
+    "row": 15,
+    "col": 25,
+    "loss_ratio": 0.039,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_26",
+    "row": 15,
+    "col": 26,
+    "loss_ratio": 0.262,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_15_27",
+    "row": 15,
+    "col": 27,
+    "loss_ratio": 0.133,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_28",
+    "row": 15,
+    "col": 28,
+    "loss_ratio": 0.012,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_29",
+    "row": 15,
+    "col": 29,
+    "loss_ratio": 0.023,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_30",
+    "row": 15,
+    "col": 30,
+    "loss_ratio": 0.09,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_15_31",
+    "row": 15,
+    "col": 31,
+    "loss_ratio": 0.449,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_0",
+    "row": 16,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_1",
+    "row": 16,
+    "col": 1,
+    "loss_ratio": 0.926,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_2",
+    "row": 16,
+    "col": 2,
+    "loss_ratio": 0.762,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_3",
+    "row": 16,
+    "col": 3,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_4",
+    "row": 16,
+    "col": 4,
+    "loss_ratio": 0.664,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_5",
+    "row": 16,
+    "col": 5,
+    "loss_ratio": 0.539,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_6",
+    "row": 16,
+    "col": 6,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_7",
+    "row": 16,
+    "col": 7,
+    "loss_ratio": 0.488,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_8",
+    "row": 16,
+    "col": 8,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_9",
+    "row": 16,
+    "col": 9,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_10",
+    "row": 16,
+    "col": 10,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_11",
+    "row": 16,
+    "col": 11,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_12",
+    "row": 16,
+    "col": 12,
+    "loss_ratio": 0.559,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_13",
+    "row": 16,
+    "col": 13,
+    "loss_ratio": 0.324,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_14",
+    "row": 16,
+    "col": 14,
+    "loss_ratio": 0.199,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_15",
+    "row": 16,
+    "col": 15,
+    "loss_ratio": 0.113,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_16",
+    "row": 16,
+    "col": 16,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_17",
+    "row": 16,
+    "col": 17,
+    "loss_ratio": 0.156,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_18",
+    "row": 16,
+    "col": 18,
+    "loss_ratio": 0.258,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_19",
+    "row": 16,
+    "col": 19,
+    "loss_ratio": 0.504,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_20",
+    "row": 16,
+    "col": 20,
+    "loss_ratio": 0.602,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_16_21",
+    "row": 16,
+    "col": 21,
+    "loss_ratio": 0.34,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_22",
+    "row": 16,
+    "col": 22,
+    "loss_ratio": 0.203,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_23",
+    "row": 16,
+    "col": 23,
+    "loss_ratio": 0.434,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_24",
+    "row": 16,
+    "col": 24,
+    "loss_ratio": 0.184,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_25",
+    "row": 16,
+    "col": 25,
+    "loss_ratio": 0.449,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_26",
+    "row": 16,
+    "col": 26,
+    "loss_ratio": 0.113,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_27",
+    "row": 16,
+    "col": 27,
+    "loss_ratio": 0.391,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_16_28",
+    "row": 16,
+    "col": 28,
+    "loss_ratio": 0.078,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_29",
+    "row": 16,
+    "col": 29,
+    "loss_ratio": 0.078,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_30",
+    "row": 16,
+    "col": 30,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_16_31",
+    "row": 16,
+    "col": 31,
+    "loss_ratio": 0.359,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_17_0",
+    "row": 17,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_1",
+    "row": 17,
+    "col": 1,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_2",
+    "row": 17,
+    "col": 2,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_3",
+    "row": 17,
+    "col": 3,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_4",
+    "row": 17,
+    "col": 4,
+    "loss_ratio": 0.875,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_5",
+    "row": 17,
+    "col": 5,
+    "loss_ratio": 0.656,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_6",
+    "row": 17,
+    "col": 6,
+    "loss_ratio": 0.691,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_7",
+    "row": 17,
+    "col": 7,
+    "loss_ratio": 0.227,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_17_8",
+    "row": 17,
+    "col": 8,
+    "loss_ratio": 0.586,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_17_9",
+    "row": 17,
+    "col": 9,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_10",
+    "row": 17,
+    "col": 10,
+    "loss_ratio": 0.395,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_17_11",
+    "row": 17,
+    "col": 11,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_12",
+    "row": 17,
+    "col": 12,
+    "loss_ratio": 0.719,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_13",
+    "row": 17,
+    "col": 13,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_14",
+    "row": 17,
+    "col": 14,
+    "loss_ratio": 0.969,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_15",
+    "row": 17,
+    "col": 15,
+    "loss_ratio": 0.734,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_16",
+    "row": 17,
+    "col": 16,
+    "loss_ratio": 0.73,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_17",
+    "row": 17,
+    "col": 17,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_18",
+    "row": 17,
+    "col": 18,
+    "loss_ratio": 0.727,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_19",
+    "row": 17,
+    "col": 19,
+    "loss_ratio": 0.727,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_20",
+    "row": 17,
+    "col": 20,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_21",
+    "row": 17,
+    "col": 21,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_22",
+    "row": 17,
+    "col": 22,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_23",
+    "row": 17,
+    "col": 23,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_24",
+    "row": 17,
+    "col": 24,
+    "loss_ratio": 0.871,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_25",
+    "row": 17,
+    "col": 25,
+    "loss_ratio": 0.652,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_26",
+    "row": 17,
+    "col": 26,
+    "loss_ratio": 0.105,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_17_27",
+    "row": 17,
+    "col": 27,
+    "loss_ratio": 0.656,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_28",
+    "row": 17,
+    "col": 28,
+    "loss_ratio": 0.344,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_17_29",
+    "row": 17,
+    "col": 29,
+    "loss_ratio": 0.621,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_17_30",
+    "row": 17,
+    "col": 30,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_17_31",
+    "row": 17,
+    "col": 31,
+    "loss_ratio": 0.43,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_0",
+    "row": 18,
+    "col": 0,
+    "loss_ratio": 0.898,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_1",
+    "row": 18,
+    "col": 1,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_2",
+    "row": 18,
+    "col": 2,
+    "loss_ratio": 0.66,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_3",
+    "row": 18,
+    "col": 3,
+    "loss_ratio": 0.5,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_4",
+    "row": 18,
+    "col": 4,
+    "loss_ratio": 0.656,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_5",
+    "row": 18,
+    "col": 5,
+    "loss_ratio": 0.297,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_6",
+    "row": 18,
+    "col": 6,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_7",
+    "row": 18,
+    "col": 7,
+    "loss_ratio": 0.582,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_8",
+    "row": 18,
+    "col": 8,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_9",
+    "row": 18,
+    "col": 9,
+    "loss_ratio": 0.789,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_10",
+    "row": 18,
+    "col": 10,
+    "loss_ratio": 0.844,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_11",
+    "row": 18,
+    "col": 11,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_12",
+    "row": 18,
+    "col": 12,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_13",
+    "row": 18,
+    "col": 13,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_14",
+    "row": 18,
+    "col": 14,
+    "loss_ratio": 0.953,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_15",
+    "row": 18,
+    "col": 15,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_16",
+    "row": 18,
+    "col": 16,
+    "loss_ratio": 0.949,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_17",
+    "row": 18,
+    "col": 17,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_18",
+    "row": 18,
+    "col": 18,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_19",
+    "row": 18,
+    "col": 19,
+    "loss_ratio": 0.734,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_20",
+    "row": 18,
+    "col": 20,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_21",
+    "row": 18,
+    "col": 21,
+    "loss_ratio": 0.922,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_22",
+    "row": 18,
+    "col": 22,
+    "loss_ratio": 0.941,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_23",
+    "row": 18,
+    "col": 23,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_24",
+    "row": 18,
+    "col": 24,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_18_25",
+    "row": 18,
+    "col": 25,
+    "loss_ratio": 0.363,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_26",
+    "row": 18,
+    "col": 26,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_27",
+    "row": 18,
+    "col": 27,
+    "loss_ratio": 0.445,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_28",
+    "row": 18,
+    "col": 28,
+    "loss_ratio": 0.328,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_29",
+    "row": 18,
+    "col": 29,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_18_30",
+    "row": 18,
+    "col": 30,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_18_31",
+    "row": 18,
+    "col": 31,
+    "loss_ratio": 0.402,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_0",
+    "row": 19,
+    "col": 0,
+    "loss_ratio": 0.957,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_1",
+    "row": 19,
+    "col": 1,
+    "loss_ratio": 0.73,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_2",
+    "row": 19,
+    "col": 2,
+    "loss_ratio": 0.535,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_3",
+    "row": 19,
+    "col": 3,
+    "loss_ratio": 0.598,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_4",
+    "row": 19,
+    "col": 4,
+    "loss_ratio": 0.582,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_5",
+    "row": 19,
+    "col": 5,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_6",
+    "row": 19,
+    "col": 6,
+    "loss_ratio": 0.012,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_19_7",
+    "row": 19,
+    "col": 7,
+    "loss_ratio": 0.32,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_8",
+    "row": 19,
+    "col": 8,
+    "loss_ratio": 0.742,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_9",
+    "row": 19,
+    "col": 9,
+    "loss_ratio": 0.609,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_10",
+    "row": 19,
+    "col": 10,
+    "loss_ratio": 0.168,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_19_11",
+    "row": 19,
+    "col": 11,
+    "loss_ratio": 0.754,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_12",
+    "row": 19,
+    "col": 12,
+    "loss_ratio": 0.664,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_13",
+    "row": 19,
+    "col": 13,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_14",
+    "row": 19,
+    "col": 14,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_15",
+    "row": 19,
+    "col": 15,
+    "loss_ratio": 0.688,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_16",
+    "row": 19,
+    "col": 16,
+    "loss_ratio": 0.781,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_17",
+    "row": 19,
+    "col": 17,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_18",
+    "row": 19,
+    "col": 18,
+    "loss_ratio": 0.559,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_19",
+    "row": 19,
+    "col": 19,
+    "loss_ratio": 0.523,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_20",
+    "row": 19,
+    "col": 20,
+    "loss_ratio": 0.504,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_21",
+    "row": 19,
+    "col": 21,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_22",
+    "row": 19,
+    "col": 22,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_23",
+    "row": 19,
+    "col": 23,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_24",
+    "row": 19,
+    "col": 24,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_25",
+    "row": 19,
+    "col": 25,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_26",
+    "row": 19,
+    "col": 26,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_27",
+    "row": 19,
+    "col": 27,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_28",
+    "row": 19,
+    "col": 28,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_29",
+    "row": 19,
+    "col": 29,
+    "loss_ratio": 0.648,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_19_30",
+    "row": 19,
+    "col": 30,
+    "loss_ratio": 0.336,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_19_31",
+    "row": 19,
+    "col": 31,
+    "loss_ratio": 0.492,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_0",
+    "row": 20,
+    "col": 0,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_1",
+    "row": 20,
+    "col": 1,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_2",
+    "row": 20,
+    "col": 2,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_3",
+    "row": 20,
+    "col": 3,
+    "loss_ratio": 0.43,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_4",
+    "row": 20,
+    "col": 4,
+    "loss_ratio": 0.762,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_5",
+    "row": 20,
+    "col": 5,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_6",
+    "row": 20,
+    "col": 6,
+    "loss_ratio": 0.215,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_7",
+    "row": 20,
+    "col": 7,
+    "loss_ratio": 0.094,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_20_8",
+    "row": 20,
+    "col": 8,
+    "loss_ratio": 0.598,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_9",
+    "row": 20,
+    "col": 9,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_10",
+    "row": 20,
+    "col": 10,
+    "loss_ratio": 0.84,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_11",
+    "row": 20,
+    "col": 11,
+    "loss_ratio": 0.664,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_12",
+    "row": 20,
+    "col": 12,
+    "loss_ratio": 0.863,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_13",
+    "row": 20,
+    "col": 13,
+    "loss_ratio": 0.969,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_14",
+    "row": 20,
+    "col": 14,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_15",
+    "row": 20,
+    "col": 15,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_16",
+    "row": 20,
+    "col": 16,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_17",
+    "row": 20,
+    "col": 17,
+    "loss_ratio": 0.898,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_18",
+    "row": 20,
+    "col": 18,
+    "loss_ratio": 0.734,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_19",
+    "row": 20,
+    "col": 19,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_20",
+    "row": 20,
+    "col": 20,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_21",
+    "row": 20,
+    "col": 21,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_22",
+    "row": 20,
+    "col": 22,
+    "loss_ratio": 0.547,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_23",
+    "row": 20,
+    "col": 23,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_24",
+    "row": 20,
+    "col": 24,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_25",
+    "row": 20,
+    "col": 25,
+    "loss_ratio": 0.719,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_26",
+    "row": 20,
+    "col": 26,
+    "loss_ratio": 0.809,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_27",
+    "row": 20,
+    "col": 27,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_28",
+    "row": 20,
+    "col": 28,
+    "loss_ratio": 0.652,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_20_29",
+    "row": 20,
+    "col": 29,
+    "loss_ratio": 0.211,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_30",
+    "row": 20,
+    "col": 30,
+    "loss_ratio": 0.355,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_20_31",
+    "row": 20,
+    "col": 31,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_0",
+    "row": 21,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_1",
+    "row": 21,
+    "col": 1,
+    "loss_ratio": 0.594,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_2",
+    "row": 21,
+    "col": 2,
+    "loss_ratio": 0.574,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_3",
+    "row": 21,
+    "col": 3,
+    "loss_ratio": 0.762,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_4",
+    "row": 21,
+    "col": 4,
+    "loss_ratio": 0.957,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_5",
+    "row": 21,
+    "col": 5,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_6",
+    "row": 21,
+    "col": 6,
+    "loss_ratio": 0.383,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_7",
+    "row": 21,
+    "col": 7,
+    "loss_ratio": 0.094,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_21_8",
+    "row": 21,
+    "col": 8,
+    "loss_ratio": 0.008,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_21_9",
+    "row": 21,
+    "col": 9,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_10",
+    "row": 21,
+    "col": 10,
+    "loss_ratio": 0.457,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_11",
+    "row": 21,
+    "col": 11,
+    "loss_ratio": 0.223,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_12",
+    "row": 21,
+    "col": 12,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_13",
+    "row": 21,
+    "col": 13,
+    "loss_ratio": 0.773,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_14",
+    "row": 21,
+    "col": 14,
+    "loss_ratio": 0.926,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_15",
+    "row": 21,
+    "col": 15,
+    "loss_ratio": 0.727,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_16",
+    "row": 21,
+    "col": 16,
+    "loss_ratio": 0.367,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_17",
+    "row": 21,
+    "col": 17,
+    "loss_ratio": 0.965,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_18",
+    "row": 21,
+    "col": 18,
+    "loss_ratio": 0.719,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_19",
+    "row": 21,
+    "col": 19,
+    "loss_ratio": 0.809,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_20",
+    "row": 21,
+    "col": 20,
+    "loss_ratio": 0.926,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_21",
+    "row": 21,
+    "col": 21,
+    "loss_ratio": 0.844,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_22",
+    "row": 21,
+    "col": 22,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_23",
+    "row": 21,
+    "col": 23,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_24",
+    "row": 21,
+    "col": 24,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_25",
+    "row": 21,
+    "col": 25,
+    "loss_ratio": 0.969,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_26",
+    "row": 21,
+    "col": 26,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_21_27",
+    "row": 21,
+    "col": 27,
+    "loss_ratio": 0.395,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_21_28",
+    "row": 21,
+    "col": 28,
+    "loss_ratio": 0.156,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_21_29",
+    "row": 21,
+    "col": 29,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_21_30",
+    "row": 21,
+    "col": 30,
+    "loss_ratio": 0.031,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_21_31",
+    "row": 21,
+    "col": 31,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_22_0",
+    "row": 22,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_1",
+    "row": 22,
+    "col": 1,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_2",
+    "row": 22,
+    "col": 2,
+    "loss_ratio": 0.508,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_22_3",
+    "row": 22,
+    "col": 3,
+    "loss_ratio": 0.93,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_4",
+    "row": 22,
+    "col": 4,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_5",
+    "row": 22,
+    "col": 5,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_6",
+    "row": 22,
+    "col": 6,
+    "loss_ratio": 0.848,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_7",
+    "row": 22,
+    "col": 7,
+    "loss_ratio": 0.5,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_22_8",
+    "row": 22,
+    "col": 8,
+    "loss_ratio": 0.398,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_22_9",
+    "row": 22,
+    "col": 9,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_10",
+    "row": 22,
+    "col": 10,
+    "loss_ratio": 0.605,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_11",
+    "row": 22,
+    "col": 11,
+    "loss_ratio": 0.75,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_12",
+    "row": 22,
+    "col": 12,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_13",
+    "row": 22,
+    "col": 13,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_14",
+    "row": 22,
+    "col": 14,
+    "loss_ratio": 0.906,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_15",
+    "row": 22,
+    "col": 15,
+    "loss_ratio": 0.754,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_16",
+    "row": 22,
+    "col": 16,
+    "loss_ratio": 0.816,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_17",
+    "row": 22,
+    "col": 17,
+    "loss_ratio": 0.961,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_18",
+    "row": 22,
+    "col": 18,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_19",
+    "row": 22,
+    "col": 19,
+    "loss_ratio": 0.902,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_20",
+    "row": 22,
+    "col": 20,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_21",
+    "row": 22,
+    "col": 21,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_22",
+    "row": 22,
+    "col": 22,
+    "loss_ratio": 0.738,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_23",
+    "row": 22,
+    "col": 23,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_24",
+    "row": 22,
+    "col": 24,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_25",
+    "row": 22,
+    "col": 25,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_26",
+    "row": 22,
+    "col": 26,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_27",
+    "row": 22,
+    "col": 27,
+    "loss_ratio": 0.621,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_28",
+    "row": 22,
+    "col": 28,
+    "loss_ratio": 0.844,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_22_29",
+    "row": 22,
+    "col": 29,
+    "loss_ratio": 0.434,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_22_30",
+    "row": 22,
+    "col": 30,
+    "loss_ratio": 0.102,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_22_31",
+    "row": 22,
+    "col": 31,
+    "loss_ratio": 0.645,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_0",
+    "row": 23,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_1",
+    "row": 23,
+    "col": 1,
+    "loss_ratio": 0.867,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_2",
+    "row": 23,
+    "col": 2,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_3",
+    "row": 23,
+    "col": 3,
+    "loss_ratio": 0.973,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_4",
+    "row": 23,
+    "col": 4,
+    "loss_ratio": 0.996,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_5",
+    "row": 23,
+    "col": 5,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_6",
+    "row": 23,
+    "col": 6,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_7",
+    "row": 23,
+    "col": 7,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_8",
+    "row": 23,
+    "col": 8,
+    "loss_ratio": 0.906,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_9",
+    "row": 23,
+    "col": 9,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_10",
+    "row": 23,
+    "col": 10,
+    "loss_ratio": 0.473,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_23_11",
+    "row": 23,
+    "col": 11,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_12",
+    "row": 23,
+    "col": 12,
+    "loss_ratio": 0.977,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_13",
+    "row": 23,
+    "col": 13,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_14",
+    "row": 23,
+    "col": 14,
+    "loss_ratio": 0.996,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_15",
+    "row": 23,
+    "col": 15,
+    "loss_ratio": 0.816,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_16",
+    "row": 23,
+    "col": 16,
+    "loss_ratio": 0.988,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_17",
+    "row": 23,
+    "col": 17,
+    "loss_ratio": 0.715,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_18",
+    "row": 23,
+    "col": 18,
+    "loss_ratio": 0.977,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_19",
+    "row": 23,
+    "col": 19,
+    "loss_ratio": 0.793,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_20",
+    "row": 23,
+    "col": 20,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_21",
+    "row": 23,
+    "col": 21,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_22",
+    "row": 23,
+    "col": 22,
+    "loss_ratio": 0.836,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_23",
+    "row": 23,
+    "col": 23,
+    "loss_ratio": 0.945,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_24",
+    "row": 23,
+    "col": 24,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_25",
+    "row": 23,
+    "col": 25,
+    "loss_ratio": 0.75,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_26",
+    "row": 23,
+    "col": 26,
+    "loss_ratio": 0.566,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_23_27",
+    "row": 23,
+    "col": 27,
+    "loss_ratio": 0.793,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_28",
+    "row": 23,
+    "col": 28,
+    "loss_ratio": 0.578,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_23_29",
+    "row": 23,
+    "col": 29,
+    "loss_ratio": 0.633,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_23_30",
+    "row": 23,
+    "col": 30,
+    "loss_ratio": 0.355,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_23_31",
+    "row": 23,
+    "col": 31,
+    "loss_ratio": 0.453,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_0",
+    "row": 24,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_1",
+    "row": 24,
+    "col": 1,
+    "loss_ratio": 0.816,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_2",
+    "row": 24,
+    "col": 2,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_3",
+    "row": 24,
+    "col": 3,
+    "loss_ratio": 0.996,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_4",
+    "row": 24,
+    "col": 4,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_5",
+    "row": 24,
+    "col": 5,
+    "loss_ratio": 0.461,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_6",
+    "row": 24,
+    "col": 6,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_7",
+    "row": 24,
+    "col": 7,
+    "loss_ratio": 0.949,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_8",
+    "row": 24,
+    "col": 8,
+    "loss_ratio": 0.824,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_9",
+    "row": 24,
+    "col": 9,
+    "loss_ratio": 0.73,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_10",
+    "row": 24,
+    "col": 10,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_11",
+    "row": 24,
+    "col": 11,
+    "loss_ratio": 0.543,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_12",
+    "row": 24,
+    "col": 12,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_13",
+    "row": 24,
+    "col": 13,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_14",
+    "row": 24,
+    "col": 14,
+    "loss_ratio": 0.676,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_15",
+    "row": 24,
+    "col": 15,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_16",
+    "row": 24,
+    "col": 16,
+    "loss_ratio": 0.957,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_17",
+    "row": 24,
+    "col": 17,
+    "loss_ratio": 0.68,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_18",
+    "row": 24,
+    "col": 18,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_19",
+    "row": 24,
+    "col": 19,
+    "loss_ratio": 0.688,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_20",
+    "row": 24,
+    "col": 20,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_21",
+    "row": 24,
+    "col": 21,
+    "loss_ratio": 0.902,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_22",
+    "row": 24,
+    "col": 22,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_23",
+    "row": 24,
+    "col": 23,
+    "loss_ratio": 0.859,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_24",
+    "row": 24,
+    "col": 24,
+    "loss_ratio": 0.523,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_25",
+    "row": 24,
+    "col": 25,
+    "loss_ratio": 0.852,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_26",
+    "row": 24,
+    "col": 26,
+    "loss_ratio": 0.539,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_27",
+    "row": 24,
+    "col": 27,
+    "loss_ratio": 0.547,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_28",
+    "row": 24,
+    "col": 28,
+    "loss_ratio": 0.602,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_29",
+    "row": 24,
+    "col": 29,
+    "loss_ratio": 0.918,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_24_30",
+    "row": 24,
+    "col": 30,
+    "loss_ratio": 0.52,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_24_31",
+    "row": 24,
+    "col": 31,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_0",
+    "row": 25,
+    "col": 0,
+    "loss_ratio": 1.0,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_1",
+    "row": 25,
+    "col": 1,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_2",
+    "row": 25,
+    "col": 2,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_3",
+    "row": 25,
+    "col": 3,
+    "loss_ratio": 0.762,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_4",
+    "row": 25,
+    "col": 4,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_5",
+    "row": 25,
+    "col": 5,
+    "loss_ratio": 0.57,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_6",
+    "row": 25,
+    "col": 6,
+    "loss_ratio": 0.332,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_7",
+    "row": 25,
+    "col": 7,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_8",
+    "row": 25,
+    "col": 8,
+    "loss_ratio": 0.828,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_9",
+    "row": 25,
+    "col": 9,
+    "loss_ratio": 0.781,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_10",
+    "row": 25,
+    "col": 10,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_11",
+    "row": 25,
+    "col": 11,
+    "loss_ratio": 0.59,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_12",
+    "row": 25,
+    "col": 12,
+    "loss_ratio": 0.672,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_13",
+    "row": 25,
+    "col": 13,
+    "loss_ratio": 0.934,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_14",
+    "row": 25,
+    "col": 14,
+    "loss_ratio": 0.805,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_15",
+    "row": 25,
+    "col": 15,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_16",
+    "row": 25,
+    "col": 16,
+    "loss_ratio": 0.75,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_17",
+    "row": 25,
+    "col": 17,
+    "loss_ratio": 0.766,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_18",
+    "row": 25,
+    "col": 18,
+    "loss_ratio": 0.777,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_19",
+    "row": 25,
+    "col": 19,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_20",
+    "row": 25,
+    "col": 20,
+    "loss_ratio": 0.684,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_21",
+    "row": 25,
+    "col": 21,
+    "loss_ratio": 0.969,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_22",
+    "row": 25,
+    "col": 22,
+    "loss_ratio": 0.691,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_23",
+    "row": 25,
+    "col": 23,
+    "loss_ratio": 0.691,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_24",
+    "row": 25,
+    "col": 24,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_25",
+    "row": 25,
+    "col": 25,
+    "loss_ratio": 0.75,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_26",
+    "row": 25,
+    "col": 26,
+    "loss_ratio": 0.883,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_27",
+    "row": 25,
+    "col": 27,
+    "loss_ratio": 0.816,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_28",
+    "row": 25,
+    "col": 28,
+    "loss_ratio": 0.684,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_29",
+    "row": 25,
+    "col": 29,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_25_30",
+    "row": 25,
+    "col": 30,
+    "loss_ratio": 0.406,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_25_31",
+    "row": 25,
+    "col": 31,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_0",
+    "row": 26,
+    "col": 0,
+    "loss_ratio": 0.98,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_1",
+    "row": 26,
+    "col": 1,
+    "loss_ratio": 0.848,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_2",
+    "row": 26,
+    "col": 2,
+    "loss_ratio": 0.527,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_3",
+    "row": 26,
+    "col": 3,
+    "loss_ratio": 0.309,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_4",
+    "row": 26,
+    "col": 4,
+    "loss_ratio": 0.898,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_5",
+    "row": 26,
+    "col": 5,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_6",
+    "row": 26,
+    "col": 6,
+    "loss_ratio": 0.305,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_7",
+    "row": 26,
+    "col": 7,
+    "loss_ratio": 0.371,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_8",
+    "row": 26,
+    "col": 8,
+    "loss_ratio": 0.57,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_9",
+    "row": 26,
+    "col": 9,
+    "loss_ratio": 0.598,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_10",
+    "row": 26,
+    "col": 10,
+    "loss_ratio": 0.473,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_11",
+    "row": 26,
+    "col": 11,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_12",
+    "row": 26,
+    "col": 12,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_13",
+    "row": 26,
+    "col": 13,
+    "loss_ratio": 0.691,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_14",
+    "row": 26,
+    "col": 14,
+    "loss_ratio": 0.797,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_15",
+    "row": 26,
+    "col": 15,
+    "loss_ratio": 0.453,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_16",
+    "row": 26,
+    "col": 16,
+    "loss_ratio": 0.324,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_17",
+    "row": 26,
+    "col": 17,
+    "loss_ratio": 0.418,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_18",
+    "row": 26,
+    "col": 18,
+    "loss_ratio": 0.273,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_19",
+    "row": 26,
+    "col": 19,
+    "loss_ratio": 0.352,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_20",
+    "row": 26,
+    "col": 20,
+    "loss_ratio": 0.469,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_21",
+    "row": 26,
+    "col": 21,
+    "loss_ratio": 0.602,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_22",
+    "row": 26,
+    "col": 22,
+    "loss_ratio": 0.922,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_23",
+    "row": 26,
+    "col": 23,
+    "loss_ratio": 0.684,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_24",
+    "row": 26,
+    "col": 24,
+    "loss_ratio": 0.871,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_25",
+    "row": 26,
+    "col": 25,
+    "loss_ratio": 0.707,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_26",
+    "row": 26,
+    "col": 26,
+    "loss_ratio": 0.902,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_27",
+    "row": 26,
+    "col": 27,
+    "loss_ratio": 0.91,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_28",
+    "row": 26,
+    "col": 28,
+    "loss_ratio": 0.938,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_29",
+    "row": 26,
+    "col": 29,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_26_30",
+    "row": 26,
+    "col": 30,
+    "loss_ratio": 0.223,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_26_31",
+    "row": 26,
+    "col": 31,
+    "loss_ratio": 0.457,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_0",
+    "row": 27,
+    "col": 0,
+    "loss_ratio": 0.969,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_1",
+    "row": 27,
+    "col": 1,
+    "loss_ratio": 0.93,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_2",
+    "row": 27,
+    "col": 2,
+    "loss_ratio": 0.219,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_3",
+    "row": 27,
+    "col": 3,
+    "loss_ratio": 0.402,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_4",
+    "row": 27,
+    "col": 4,
+    "loss_ratio": 0.996,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_5",
+    "row": 27,
+    "col": 5,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_6",
+    "row": 27,
+    "col": 6,
+    "loss_ratio": 0.488,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_7",
+    "row": 27,
+    "col": 7,
+    "loss_ratio": 0.758,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_8",
+    "row": 27,
+    "col": 8,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_9",
+    "row": 27,
+    "col": 9,
+    "loss_ratio": 0.348,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_10",
+    "row": 27,
+    "col": 10,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_11",
+    "row": 27,
+    "col": 11,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_12",
+    "row": 27,
+    "col": 12,
+    "loss_ratio": 0.098,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_27_13",
+    "row": 27,
+    "col": 13,
+    "loss_ratio": 0.168,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_27_14",
+    "row": 27,
+    "col": 14,
+    "loss_ratio": 0.641,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_15",
+    "row": 27,
+    "col": 15,
+    "loss_ratio": 0.375,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_16",
+    "row": 27,
+    "col": 16,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_17",
+    "row": 27,
+    "col": 17,
+    "loss_ratio": 0.508,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_18",
+    "row": 27,
+    "col": 18,
+    "loss_ratio": 0.887,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_19",
+    "row": 27,
+    "col": 19,
+    "loss_ratio": 0.664,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_20",
+    "row": 27,
+    "col": 20,
+    "loss_ratio": 0.699,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_21",
+    "row": 27,
+    "col": 21,
+    "loss_ratio": 0.027,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_27_22",
+    "row": 27,
+    "col": 22,
+    "loss_ratio": 0.52,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_23",
+    "row": 27,
+    "col": 23,
+    "loss_ratio": 0.391,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_24",
+    "row": 27,
+    "col": 24,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_25",
+    "row": 27,
+    "col": 25,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_26",
+    "row": 27,
+    "col": 26,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_27",
+    "row": 27,
+    "col": 27,
+    "loss_ratio": 0.488,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_28",
+    "row": 27,
+    "col": 28,
+    "loss_ratio": 0.137,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_27_29",
+    "row": 27,
+    "col": 29,
+    "loss_ratio": 0.609,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_27_30",
+    "row": 27,
+    "col": 30,
+    "loss_ratio": 0.238,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_27_31",
+    "row": 27,
+    "col": 31,
+    "loss_ratio": 0.645,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_0",
+    "row": 28,
+    "col": 0,
+    "loss_ratio": 0.992,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_1",
+    "row": 28,
+    "col": 1,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_2",
+    "row": 28,
+    "col": 2,
+    "loss_ratio": 0.539,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_3",
+    "row": 28,
+    "col": 3,
+    "loss_ratio": 0.613,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_4",
+    "row": 28,
+    "col": 4,
+    "loss_ratio": 0.891,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_5",
+    "row": 28,
+    "col": 5,
+    "loss_ratio": 0.668,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_6",
+    "row": 28,
+    "col": 6,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_7",
+    "row": 28,
+    "col": 7,
+    "loss_ratio": 0.406,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_8",
+    "row": 28,
+    "col": 8,
+    "loss_ratio": 0.496,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_9",
+    "row": 28,
+    "col": 9,
+    "loss_ratio": 0.422,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_10",
+    "row": 28,
+    "col": 10,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_11",
+    "row": 28,
+    "col": 11,
+    "loss_ratio": 0.523,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_12",
+    "row": 28,
+    "col": 12,
+    "loss_ratio": 0.344,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_13",
+    "row": 28,
+    "col": 13,
+    "loss_ratio": 0.027,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_14",
+    "row": 28,
+    "col": 14,
+    "loss_ratio": 0.117,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_15",
+    "row": 28,
+    "col": 15,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_16",
+    "row": 28,
+    "col": 16,
+    "loss_ratio": 0.273,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_17",
+    "row": 28,
+    "col": 17,
+    "loss_ratio": 0.309,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_18",
+    "row": 28,
+    "col": 18,
+    "loss_ratio": 0.711,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_19",
+    "row": 28,
+    "col": 19,
+    "loss_ratio": 0.383,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_20",
+    "row": 28,
+    "col": 20,
+    "loss_ratio": 0.785,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_28_21",
+    "row": 28,
+    "col": 21,
+    "loss_ratio": 0.047,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_22",
+    "row": 28,
+    "col": 22,
+    "loss_ratio": 0.082,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_23",
+    "row": 28,
+    "col": 23,
+    "loss_ratio": 0.148,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_24",
+    "row": 28,
+    "col": 24,
+    "loss_ratio": 0.234,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_25",
+    "row": 28,
+    "col": 25,
+    "loss_ratio": 0.563,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_26",
+    "row": 28,
+    "col": 26,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_27",
+    "row": 28,
+    "col": 27,
+    "loss_ratio": 0.152,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_28",
+    "row": 28,
+    "col": 28,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_29",
+    "row": 28,
+    "col": 29,
+    "loss_ratio": 0.234,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_28_30",
+    "row": 28,
+    "col": 30,
+    "loss_ratio": 0.102,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_28_31",
+    "row": 28,
+    "col": 31,
+    "loss_ratio": 0.461,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_0",
+    "row": 29,
+    "col": 0,
+    "loss_ratio": 0.953,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_29_1",
+    "row": 29,
+    "col": 1,
+    "loss_ratio": 0.617,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_29_2",
+    "row": 29,
+    "col": 2,
+    "loss_ratio": 0.281,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_3",
+    "row": 29,
+    "col": 3,
+    "loss_ratio": 0.625,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_29_4",
+    "row": 29,
+    "col": 4,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_29_5",
+    "row": 29,
+    "col": 5,
+    "loss_ratio": 0.52,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_6",
+    "row": 29,
+    "col": 6,
+    "loss_ratio": 0.531,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_7",
+    "row": 29,
+    "col": 7,
+    "loss_ratio": 0.566,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_8",
+    "row": 29,
+    "col": 8,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_9",
+    "row": 29,
+    "col": 9,
+    "loss_ratio": 0.094,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_10",
+    "row": 29,
+    "col": 10,
+    "loss_ratio": 0.098,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_11",
+    "row": 29,
+    "col": 11,
+    "loss_ratio": 0.082,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_12",
+    "row": 29,
+    "col": 12,
+    "loss_ratio": 0.141,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_13",
+    "row": 29,
+    "col": 13,
+    "loss_ratio": 0.129,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_14",
+    "row": 29,
+    "col": 14,
+    "loss_ratio": 0.09,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_15",
+    "row": 29,
+    "col": 15,
+    "loss_ratio": 0.141,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_16",
+    "row": 29,
+    "col": 16,
+    "loss_ratio": 0.188,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_17",
+    "row": 29,
+    "col": 17,
+    "loss_ratio": 0.18,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_18",
+    "row": 29,
+    "col": 18,
+    "loss_ratio": 0.059,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_19",
+    "row": 29,
+    "col": 19,
+    "loss_ratio": 0.0,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_20",
+    "row": 29,
+    "col": 20,
+    "loss_ratio": 0.016,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_21",
+    "row": 29,
+    "col": 21,
+    "loss_ratio": 0.004,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_22",
+    "row": 29,
+    "col": 22,
+    "loss_ratio": 0.262,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_23",
+    "row": 29,
+    "col": 23,
+    "loss_ratio": 0.016,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_24",
+    "row": 29,
+    "col": 24,
+    "loss_ratio": 0.023,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_25",
+    "row": 29,
+    "col": 25,
+    "loss_ratio": 0.52,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_29_26",
+    "row": 29,
+    "col": 26,
+    "loss_ratio": 0.121,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_27",
+    "row": 29,
+    "col": 27,
+    "loss_ratio": 0.113,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_28",
+    "row": 29,
+    "col": 28,
+    "loss_ratio": 0.156,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_29",
+    "row": 29,
+    "col": 29,
+    "loss_ratio": 0.184,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_30",
+    "row": 29,
+    "col": 30,
+    "loss_ratio": 0.047,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_29_31",
+    "row": 29,
+    "col": 31,
+    "loss_ratio": 0.438,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_0",
+    "row": 30,
+    "col": 0,
+    "loss_ratio": 0.984,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_1",
+    "row": 30,
+    "col": 1,
+    "loss_ratio": 0.863,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_2",
+    "row": 30,
+    "col": 2,
+    "loss_ratio": 0.801,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_3",
+    "row": 30,
+    "col": 3,
+    "loss_ratio": 0.629,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_4",
+    "row": 30,
+    "col": 4,
+    "loss_ratio": 0.594,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_5",
+    "row": 30,
+    "col": 5,
+    "loss_ratio": 0.723,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_6",
+    "row": 30,
+    "col": 6,
+    "loss_ratio": 0.727,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_7",
+    "row": 30,
+    "col": 7,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_8",
+    "row": 30,
+    "col": 8,
+    "loss_ratio": 0.551,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_9",
+    "row": 30,
+    "col": 9,
+    "loss_ratio": 0.383,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_10",
+    "row": 30,
+    "col": 10,
+    "loss_ratio": 0.387,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_11",
+    "row": 30,
+    "col": 11,
+    "loss_ratio": 0.559,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_12",
+    "row": 30,
+    "col": 12,
+    "loss_ratio": 0.625,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_13",
+    "row": 30,
+    "col": 13,
+    "loss_ratio": 0.121,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_14",
+    "row": 30,
+    "col": 14,
+    "loss_ratio": 0.426,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_15",
+    "row": 30,
+    "col": 15,
+    "loss_ratio": 0.172,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_16",
+    "row": 30,
+    "col": 16,
+    "loss_ratio": 0.23,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_17",
+    "row": 30,
+    "col": 17,
+    "loss_ratio": 0.484,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_18",
+    "row": 30,
+    "col": 18,
+    "loss_ratio": 0.309,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_19",
+    "row": 30,
+    "col": 19,
+    "loss_ratio": 0.051,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_20",
+    "row": 30,
+    "col": 20,
+    "loss_ratio": 0.203,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_21",
+    "row": 30,
+    "col": 21,
+    "loss_ratio": 0.055,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_22",
+    "row": 30,
+    "col": 22,
+    "loss_ratio": 0.023,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_23",
+    "row": 30,
+    "col": 23,
+    "loss_ratio": 0.184,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_24",
+    "row": 30,
+    "col": 24,
+    "loss_ratio": 0.402,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_25",
+    "row": 30,
+    "col": 25,
+    "loss_ratio": 0.855,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_30_26",
+    "row": 30,
+    "col": 26,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_27",
+    "row": 30,
+    "col": 27,
+    "loss_ratio": 0.301,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_28",
+    "row": 30,
+    "col": 28,
+    "loss_ratio": 0.246,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_29",
+    "row": 30,
+    "col": 29,
+    "loss_ratio": 0.227,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_30_30",
+    "row": 30,
+    "col": 30,
+    "loss_ratio": 0.039,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_30_31",
+    "row": 30,
+    "col": 31,
+    "loss_ratio": 0.457,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_0",
+    "row": 31,
+    "col": 0,
+    "loss_ratio": 0.922,
+    "severity": "destroyed"
+  },
+  {
+    "building_id": "B_31_1",
+    "row": 31,
+    "col": 1,
+    "loss_ratio": 0.324,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_2",
+    "row": 31,
+    "col": 2,
+    "loss_ratio": 0.242,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_3",
+    "row": 31,
+    "col": 3,
+    "loss_ratio": 0.441,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_4",
+    "row": 31,
+    "col": 4,
+    "loss_ratio": 0.531,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_5",
+    "row": 31,
+    "col": 5,
+    "loss_ratio": 0.563,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_6",
+    "row": 31,
+    "col": 6,
+    "loss_ratio": 0.563,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_7",
+    "row": 31,
+    "col": 7,
+    "loss_ratio": 0.406,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_8",
+    "row": 31,
+    "col": 8,
+    "loss_ratio": 0.336,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_9",
+    "row": 31,
+    "col": 9,
+    "loss_ratio": 0.25,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_10",
+    "row": 31,
+    "col": 10,
+    "loss_ratio": 0.555,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_11",
+    "row": 31,
+    "col": 11,
+    "loss_ratio": 0.547,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_12",
+    "row": 31,
+    "col": 12,
+    "loss_ratio": 0.48,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_13",
+    "row": 31,
+    "col": 13,
+    "loss_ratio": 0.512,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_14",
+    "row": 31,
+    "col": 14,
+    "loss_ratio": 0.52,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_15",
+    "row": 31,
+    "col": 15,
+    "loss_ratio": 0.242,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_16",
+    "row": 31,
+    "col": 16,
+    "loss_ratio": 0.41,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_17",
+    "row": 31,
+    "col": 17,
+    "loss_ratio": 0.332,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_18",
+    "row": 31,
+    "col": 18,
+    "loss_ratio": 0.328,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_19",
+    "row": 31,
+    "col": 19,
+    "loss_ratio": 0.074,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_31_20",
+    "row": 31,
+    "col": 20,
+    "loss_ratio": 0.254,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_21",
+    "row": 31,
+    "col": 21,
+    "loss_ratio": 0.234,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_22",
+    "row": 31,
+    "col": 22,
+    "loss_ratio": 0.285,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_23",
+    "row": 31,
+    "col": 23,
+    "loss_ratio": 0.48,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_24",
+    "row": 31,
+    "col": 24,
+    "loss_ratio": 0.402,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_25",
+    "row": 31,
+    "col": 25,
+    "loss_ratio": 0.449,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_26",
+    "row": 31,
+    "col": 26,
+    "loss_ratio": 0.164,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_31_27",
+    "row": 31,
+    "col": 27,
+    "loss_ratio": 0.18,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_31_28",
+    "row": 31,
+    "col": 28,
+    "loss_ratio": 0.125,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_31_29",
+    "row": 31,
+    "col": 29,
+    "loss_ratio": 0.109,
+    "severity": "intact"
+  },
+  {
+    "building_id": "B_31_30",
+    "row": 31,
+    "col": 30,
+    "loss_ratio": 0.289,
+    "severity": "damaged"
+  },
+  {
+    "building_id": "B_31_31",
+    "row": 31,
+    "col": 31,
+    "loss_ratio": 0.27,
+    "severity": "damaged"
+  }
+]
