@@ -109,7 +109,7 @@ export async function downloadDisasterReport({
   doc.setTextColor(255, 255, 255)
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(16)
-  doc.text('VISTA — Visual Intelligence for Structure & Threat Assessment', 14, 13)
+  doc.text('VISTA — Visual Intelligence for Spatial Triage & Assessment', 14, 13)
 
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(9)

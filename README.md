@@ -1,4 +1,4 @@
-# VISTA (Visual Intelligence for Structure and Threat Assessment)
+# VISTA (Visual Intelligence for Spatial Triage and Assessment)
 
 > **AI-Powered Satellite Disaster Assessment & Building Damage Classification**  
 > Direct integration with European Space Agency (ESA) Copernicus Sentinel-2 constellation for rapid, on-device humanitarian damage scanning.

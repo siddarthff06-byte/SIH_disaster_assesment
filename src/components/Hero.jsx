@@ -45,7 +45,7 @@ export default function Hero({ onStart }) {
           fontSize: 13, fontWeight: 500, color: 'var(--accent)',
         }}>
           <span style={{ fontSize: 16 }}>🛰️</span>
-          VISTA · Visual Intelligence for Structure and Threat Assessment
+          VISTA · Visual Intelligence for Spatial Triage and Assessment
         </div>
 
         <h1 style={{

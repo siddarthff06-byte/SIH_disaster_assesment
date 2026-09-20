@@ -1,6 +1,6 @@
 # 🛰️ VISTA — Project Changelog & Contribution Log
 
-> **VISTA (Visual Intelligence for Satellite-based Threat Assessment)**  
+> **VISTA (Visual Intelligence for Spatial Triage and Assessment)**  
 > Comprehensive development timeline, contributors, and version milestones.
 
 ---
